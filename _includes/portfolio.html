@@ -1,0 +1,22 @@
+<div id="portfoliowrap">
+    <div class="portfolio-centered">
+        
+         {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+        <div class="recentitems portfolio">
+            {% for team in site.data.sessions.teams %}
+                <div class="portfolio-item graphic-design" >
+                    <div class="he-wrap tpl6" >
+                        <h2>{{ team.teamname }}</h2> <br>
+                            {% for school in team.schools %}
+                                <a href="{{ school.url }}" target="_blank"><img src="{{ school.logo | prepend: site.baseurl }}" alt="{{ school.name }}" width="200px"></a>
+                                <br>
+                            {% endfor %}
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            {% endfor %}
+
+
+
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->

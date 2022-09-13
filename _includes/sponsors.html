@@ -1,0 +1,19 @@
+<div id="portfoliowrap">
+    <div class="portfolio-centered">
+        <h2>Thank you to our sponsors!!</h2>
+        <div class="portfolio-sponsors">
+            {% for sponsor in site.data.sessions.sponsors %}
+                
+                   
+                       
+                                <a href="{{ sponsor.url }}" target="_blank"><img src="{{ sponsor.logo | prepend: site.baseurl }}" alt="{{ sponsor.name }}" width="150" ></a>
+                                
+               
+    
+            {% endfor %}
+
+
+
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->

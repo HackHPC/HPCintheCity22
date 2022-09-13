@@ -1,0 +1,95 @@
+
+<div id="service">
+
+<div class="container mtb">
+
+       
+            <h3>Event Sessions</h3>
+                <ul class="list-group">
+            {% for session in site.data.sessions.sessions %}
+            <li class="list-group-item"><mark>{% if session.date %}
+                 <strong>   {{ session.date }} </strong>
+                {% endif %}
+                {% if session.time %}
+                <strong> @ {{ session.time }} </strong>- 
+                {% endif %} 
+                <strong>{{ session.name }} </strong> 
+            </mark>
+                {% if session.duration %}
+                    (<em>{{ session.duration }}</em>)
+                {% endif %}
+            
+                {% if session.type %}
+                    [{{ session.type }}]
+                {% endif %}
+                <br>
+                {% if session.presenter %}
+                    <u>Presenter:</u> <em><strong>{{ session.presenter }}</strong></em>
+                        {% for presenter in site.data.sessions.presenters %}
+                            {% if session.presenter == presenter.name %}
+                                [
+                                {% for entry in presenter.social %}
+                                <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
+                                {% endfor %} 
+                                ]
+                                {% if presenter.position %} 
+                                - <em> 
+                                    {% if presenter.title %}
+                                        {{ presenter.title }}
+                                    {% endif %}
+                                |<a href="{{ presenter.url }}" target="_blank"> {{ presenter.position }} </a>
+                                </em>
+                                {% endif %}
+                                
+                            {% endif %}
+                        {% endfor %}
+                        {% for presenter in site.members %}
+                            {% if session.presenter == presenter.name %}
+                                [
+                                {% for entry in presenter.social %}
+                                <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
+                                {% endfor %} 
+                                ]
+                                {% if presenter.position %} 
+                                - <em> 
+                                    {% if presenter.title %}
+                                        {{ presenter.title }}
+                                    {% endif %}
+                                |<a href="{{ presenter.url }}" target="_blank"> {{ presenter.position }} </a>
+                                </em>
+                                {% endif %}
+                                
+                            {% endif %}
+                        {% endfor %} 
+
+                {% endif %}
+                <br>
+                {% if session.description %}
+                    <p>[Description/Topics]<br>
+                        {{ session.description }}
+                    </p>
+                {% endif %}
+                {% if session.zoomlink %}
+                    <a href="{{ session.zoomlink }}">[Zoom]</a>
+                {% endif %}
+                {% if session.icsfile %}
+                    <a href="{{ session.icsfile | prepend: site.baseurl }}">[Add to Calendar]</a>
+                {% endif %}
+                {% if session.files %}
+                    {% for file in session.files %}
+                        <br>
+                        <a href="{{ file.location | prepend: site.baseurl }}">[ {{ file.name }}]</a>
+                    {% endfor %}
+                {% endif %}
+                {% if session.url %}
+                    <br>
+                    Url: <a href="{{ session.url }}">{{ session.url }}</a>
+                {% endif %}
+                <br>
+           </li>
+            {% endfor %}
+               </ul>
+
+
+</div><! --/container -->
+</div>

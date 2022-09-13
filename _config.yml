@@ -1,1 +1,205 @@
-theme: jekyll-theme-architect
+### GENERAL SETTINGS ###
+
+# Site settings
+title: "HPC in the City: Dallas"
+description: "This will serve as the event site for the HPC in the City: Dallas Hackathon hosted by the Supercomputing22 Conference."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "/HPCintheCity22" #important: start with /
+url: "https://hackhpc.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+# Making projects separate from posts
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  questions:
+    output: true
+    permalink: /questions/:title/
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: "HackHPC.org"
+    url: http://hackhpc.org/
+  #- title: facebook
+  #  url:
+  - title: twitter
+    url: https://twitter.com/ccloudhack
+  - title: youtube
+    url: https://www.youtube.com/channel/UCESkfjHWsERvFpJgPmWXRSA/playlists
+  - title: linkedin
+    url: https://www.linkedin.com/groups/8859728/
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  #- lines:
+  #  - Some Ave, 987,
+  #  - 23890, New York,
+  #  - United States.
+email: 'schack@hackhcp.org'
+#tel: +34 8493-4893
+contacturl: 'http://hackhpc.org'
+
+registrationform: 'https://forms.gle/vu7TmXxy9uv66Lfw7'
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Members information. Shown on About page.
+members:
+  - name: Amy Cannon
+    position: Omnibond
+    url: http://www.omnibond.com
+    text: >
+      Amy Cannon has worked at Omnibond for 10 years, where her Business Development
+      skills allow her to engage with customers and partners, teaching how HPC and
+      Cloud help solve scientific problems. Outside of work she enjoys spending time
+      in nature as well as helping others grow their HPC, HTC, AI, and Cloud Computing
+      knowledge.
+    img: amy-sq.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:amycannon@omnibond.com
+      - title: linkedin
+        url: https://www.linkedin.com/in/amy-cannon-46230b31/
+      - title: twitter
+        url: https://twitter.com/amy__cannon
+
+
+  - name: Dr. Linda Hayden
+    position: "Science Gateways Community Institute"
+    url: https://sciencegateways.org
+    text: >
+      Dr. Linda Hayden holds a Ph.D. in Mathematics and Education. She leads workforce
+      development activities for the NSF Science Gateways Community Institute (SGCI).
+      In that position she works to train the next generation of gateway developers and
+      users. Professor Hayden is an NSF Presidential Awardee for Excellence in Science,
+      Mathematics and Engineering Mentoring.
+    img: linda.jpeg
+    social:
+      - title: envelope #use for email address
+        url: mailto:haydenl@mindspring.com
+      - title: linkedin
+        url: https://www.linkedin.com/in/linda-hayden-5a8b424/
+      - title: twitter
+        url: https://twitter.com/lhaydenecsu
+
+
+
+
+  - name: Alex Nolte
+    position: "University of Tartu"
+    url: https://ut.ee
+    text: >
+      Hi, I’m Alex. I am a Lecturer at the University of Tartu in Estonia and an Adjunct Assistant
+      Professor at Carnegie Mellon University in Pittsburgh working in the area of human computer
+      interaction. I am an avid hackathon enthusiast and I have participated in, co-organized,
+      served as a mentor and studied countless hackathons over the past years with no end in sight.
+      Outside of work I fiddle with any gadget I can get my hand on, play video games, cook and do BBQ.
+    img: alex.jpeg
+    social:
+      - title: envelope #use for email address
+        url: mailto:alexander.nolte@ut.ee
+      - title: linkedin
+        url: https://www.linkedin.com/in/alexandernolte/
+      - title: twitter
+        url: https://twitter.com/alexander_nolte/
+      - title: github
+        url: https://alexandernolte.github.io/
+
+  - name: "Je'aime Powell"
+    position: "Texas advanced Computing Center"
+    title: "Senior HPC Systems Administrator and Researcher"
+    url: https://www.tacc.utexas.edu/
+    text: >
+      Je’aime is a Systems Administrator and a researcher at the Texas Advanced Computing
+      Center. When not working on high-perfomance/cloud compute systems or mentoring
+      students you can find him designing, creating, and/or deploying enviromental sensors.
+    img: jeaime-sq.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:jpowell@tacc.utexas.edu
+      - title: linkedin
+        url: https://www.linkedin.com/in/jeaimehp/
+      - title: twitter
+        url: https://twitter.com/jeaimehp
+      - title: github
+        url: https://github.com/jeaimehp
+
+  - name: Boyd Wilson
+    position: Omnibond
+    title: Technologist and product focused executive
+    url: http://www.omnibond.com
+    text: >
+      Boyd Wilson, CEO of Omnibond Systems, has extensive experience and leadership in the
+      areas of software development, system administration, storage architectures and
+      business models. Formerly, Boyd served as Software CTO and also Executive Director
+      over computing operations at Clemson University and had research computing as part
+      of his purview. He has participated in various academic grants, papers and workshops
+      in the areas of parallel storage, cloud computing and computational infrastructure.
+      Boyd’s current focus lies in 4 areas: first- computer vision, ai, and real-time
+      traffic analytics with TrafficVision; second- high-performance computing and storage
+      with CloudyCluster and OrangeFS; third- identity and security management; fourth-
+      wake surfing and riding a boosted board around cities while traveling.
+    img: boyd.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:boyd@omnibond.com
+      - title: linkedin
+        url: https://www.linkedin.com/in/boydwilson/
+      - title: twitter
+        url: https://twitter.com/boydwilson/
+      - title: github
+        url: https://github.com/omnibond/
+
+  - name: Josh Kissel
+    position: Omnibond
+    url: http://www.omnibond.com
+    text: >
+      Josh has worked at Omnibond for the past two years and helps with Hackathon website
+      maintenance. He got his first computer in 1993 when his parents brought home a
+      Gateway in a black and white spotted box. When not helping with hackathons he enjoys
+      cartography, playing with dogs, and snowshoeing.
+    img: josh.jpeg
+    social:
+      - title: envelope #use for email address
+        url: mailto:josh@trafficvision.com
+      - title: linkedin
+        url: https://www.linkedin.com/in/josh-kissel-201a4895/
+
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: >
+  Bring your energy and enthusiasm to this years hackthon. Leave with technical excellence, enabled by Omnibond and the NSF-funded Science Gateways Community Institute (SGCI) 
+  along with partners such as Intel HPC, ORNL, Voltron Data, Google Cloud, TACC, and Globus. We have joined forces in creating a diverse new generation
+  of HPC data scientists and programmers.
+
+# Testimonial content. Shown on Home and About page.
+#testimonial:
+#    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+#    author: Marcel Newman
+#    position: WEB DESIGNER - BLACKTIE.CO
