@@ -1,16 +1,15 @@
-# FacultyHack@Gateways22
+# HPC in the City:Dallas @ SC'22
+_This site will host event information for the HPC in the City: Dallas at SC22's Hackathon._
 
-**Public Event Site Link: [https://hackhpc.github.io/FacultyHack-Gateways22/](https://hackhpc.github.io/FacultyHack-Gateways22/)**
+The Event will take place virtually **November 3-7, 2022**.
 
-This will serve as the event site for the FacultyHack hosted by SGCI at the ScienceGateways22 Conference.
+**Event Site:** [https://hackhpc.github.io/HPCintheCity22/](https://hackhpc.github.io/HPCintheCity22/)
 
 **Registration will open soon**
 
-## Related Links:
-* SGCI - [https://sciencegateways.org/](https://sciencegateways.org/) 
-* Gateways22 Conference - [https://sciencegateways.org/gateways2022](https://sciencegateways.org/gateways2022)
-* HackHPC - [http://hackhpc.org/](http://hackhpc.org/)
-* Pathways to Computing Virtual Internship Program at Oak Ridge National Laboratory - [https://education.ornl.gov/pathways/](https://education.ornl.gov/pathways/)
+## Links: 
+* [Supercomputing 22 Conference](https://sc22.supercomputing.org/)
+* [Prior HPC in the City and HackHPC Events](http://hackhpc.org/pasthacks/#content2)
 
 ## Contact/Social Media Links
 * [HackHPC Site](http://hackhpc.org/)
