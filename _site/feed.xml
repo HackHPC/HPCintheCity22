@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HPC in the City: Dallas</title>
+    <description>This will serve as the event site for the HPC in the City: Dallas Hackathon hosted by the Supercomputing22 Conference.</description>
+    <link>http://0.0.0.0:4000/HPCintheCity22/</link>
+    <atom:link href="http://0.0.0.0:4000/HPCintheCity22/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 19 Sep 2022 09:27:58 -0500</pubDate>
+    <lastBuildDate>Mon, 19 Sep 2022 09:27:58 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+  </channel>
+</rss>
