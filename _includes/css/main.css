@@ -217,6 +217,9 @@ a:focus {
 
 #headerwrap {
 	background-color: {{ site.colors.primary }};
+	background-image: url("{{ "/assets/img/dallas-skyline-pixel-header.png" | | prepend: site.baseurl }}");
+	background-repeat:no-repeat;
+	width: content;
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
