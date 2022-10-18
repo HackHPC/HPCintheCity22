@@ -12,140 +12,103 @@ sessions:
 #  zoomlink:
 #  icsfile:
 #  files:
+#  - filename:
+#    location:
 #  url:
-
-- name: "KICKOFF and Jupyter Notebooks" 
-  type: "Checkin/Training"
+#  - name:
+#    url:
+- name: "[Pre-Event Training] Mentor Overview and Training (Mentors and Staff Only" 
+  type: "Training"
   presenter: "Je'aime Powell" 
-  date: 9/15/22
-  time: 5p EST
+  date: 10/26/22
+  time: "11a ET/10a CT/8a PT"   
   duration: 2hrs
   description: >  
-    Checkin #1: Team mentors will be assigned. (20 minutes)
-    Training: Jupyter Notebooks introduction for use towards reproducable science. 
-  #zoomlink: TBD
-  #icsfile: 
-  #files:
-  #  - filename:
-  #    location:
-  #url:
+    Mentor training and event overview. 
 
-- name: "Poster Template Usage" 
+- name: "KICKOFF" 
   type: "Checkin/Training"
-  presenter: Jeff Wood
-  date: 9/22/22
-  time: 5p EST
+  presenter: "Je'aime Powell" 
+  date: 11/3/22
+  time: "7p ET/6p CT/4p PT"   
   duration: 2hrs
-  description: > 
-    Checkin #2: Teams introduce themselves and their nest 3 day tasks (20 minutes)
-    Training: Poster template for final presentations 
-  #zoomlink: TBD
-  #icsfile: 
-  #files:
+  description: >  
+    Overview, Code of Conduct, Mentor Project Pitches, Team Formation 
+  #zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
+  #zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
+  #icsfile: "/assets/ics_files/sep-15-FacultyHackTraining.ics" 
   #url:
+  #  - name: "Anaconda"
+  #    url: https://www.anaconda.com/products/distribution
+  #  - name: "Google Colab"
+  #    url: https://colab.research.google.com/
+  #  - name: "Sample Github Repository Code"
+  #    url: https://github.com/jeaimehp/HPC-in-the-City-Python-IDE-Demo
+  #files:
+  #  - filename: "Kick-Off Slides - Hayden (PDF)"
+  #    location: "/assets/slidedecks/Sept-15-Kickoff-Hayden.pdf"
 
-- name: "Qwiic Labs CloudyCluster in the Classroom" 
-  type: "Checkin/Training"
-  presenter: "Boyd Wilson"
-  date: 9/29/22
-  time: 5p EST
-  duration: 2hrs
-  description: >
-    Checkin #3: Teams give update on their progress (20 minutes)
-    CloudyCluster Training:  Qwiic Labs CloudyCluster in the Classroom
-  #zoomlink: TBD
-  #icsfile: 
-  #files:
-  #url:
-
-- name: "Oak Ridge National Labs (ORNL)" 
-  type: "Checkin/Training"
-  presenter: "Elijah MacCarthy"
-  date: 10/6/22
-  time: 5p EST
-  duration: 2hrs
-  description: >
-    Checkin #4: Teams give update on their progress  (20 minutes)
-    Training: [ORNL]Pathways to Supercomputing Initiative for HBCUs/MSIs
-    
-  #zoomlink: TBD
-  #icsfile: 
-  #files:
-  #url:
-
-- name: "GitHub" 
-  type: "Checkin/Training"
-  presenter: "Je'aime Powell"
-  date: 10/13/22
-  time: 5p EST
-  duration: 2hrs
-  description: >
-    Checkin #5: Teams give update on data sets, resources and use cases. (20 minutes)
-    Training:  Github usage for project deliverable hosting
-  #zoomlink: TBD
-  #icsfile: 
-  #files:
-  #url:
-
-- name: "Poster Presentations" 
-  type: "Gateways22"
-  #presenter: "TBD"
-  date: 10/18/22
-  #time: TBD
-  duration: 2hrs
-  #description: TBD
-  #zoomlink: TBD
-  #icsfile: 
-  #files:
-  #url:
-
-- name: "Conference Attendance" 
-  type: "Gateways22"
-  #presenter: "TBD"
-  date: 10/20/22
-  #time: TBD
-  duration: 2hrs
-  #description: TBD
-  #zoomlink: TBD
-  #icsfile: 
-  #files:
-  #url:
 
 ###############################
 ###   PRESENTERS
 ###############################
 presenters:
-- name: "Jeff Wood"
-  position: "Science Gateways Community Institute"
-  title: Education Program Manager (Retired &#127881;)
-  url: http://nia.ecsu.edu
-  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: mailto:wood684@gmail.com
-    - title: linkedin
-      url: https://www.linkedin.com/in/jeff-wood-684b2a13/
-    #- title: twitter
-    #  url: 
-    #- title: github
-    #  url: 
-    - title: link
-      url: http://nia.ecsu.edu/sp/staff/jaw/index.htm
+#- name: "Jeff Wood"
+#  position: "Science Gateways Community Institute"
+#  title: Education Program Manager (Retired &#127881;)
+#  url: http://nia.ecsu.edu
+#  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+#    - title: envelope #use for email address
+#      url: mailto:wood684@gmail.com
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/jeff-wood-684b2a13/
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+#    - title: link
+#      url: http://nia.ecsu.edu/sp/staff/jaw/index.htm
 
-- name: "Elijah MacCarthy"
-  position: "Oak Ridge National Laboratory"
-  title: HPC Engineer
-  url: https://www.ornl.gov
-  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: maccarthyea@ornl.gov
-    - title: linkedin
-      url: https://www.linkedin.com/in/elijah-maccarthy-ph-d-6176b293/
-    #- title: twitter
-    #  url: 
-    #- title: github
-    #  url: 
-    - title: link
-      url: https://www.ornl.gov/staff-profile/elijah-maccarthy
+
+
+
+
+###############################
+###   MENTORS
+###############################
+mentors:
+#- name: "Elijah MacCarthy"
+#  position: "Oak Ridge National Laboratory"
+#  title: HPC Engineer
+#  url: https://www.ornl.gov
+#  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+#    - title: envelope #use for email address
+#      url: maccarthyea@ornl.gov
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/elijah-maccarthy-ph-d-6176b293/
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+#    - title: link
+#      url: https://www.ornl.gov/staff-profile/elijah-maccarthy
+#
+#- name: "Adonay Sissay"
+#  position: "Northwestern State University of Louisiana"
+#  title: Assistant Professor of Chemistry
+#  url: https://www.nsula.edu
+#  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+#    - title: envelope #use for email address
+#      url: sissaya@nsula.edu
+#    #- title: linkedin
+#    #  url: https://www.linkedin.com/in/adonay-sissay-57197a34/
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+#    - title: link
+#      url: https://www.nsula.edu/sissay-joins-scholars-as-new-chemistry-professor/
+#
 
 
 
@@ -155,82 +118,139 @@ presenters:
 #teams:
 # - teamname:
 #   members: []
+#   mentor:
 #   schools:
 #   - name:
 #     logo:
 #     url:
-#   goals:
+# themesongname: 
+# themesongurl: 
+# teamintroimg: 
+# teamintropdf: 
+# targetcourses: 
+# - name: ""
+#   coursenumber: 
+# goals:
+# - sessionname: ""
+#   goals: [ ]
 #   poster:
 #   github:
+#files:
+#  - filename: """
+#    filelink: ""
+#    filetype: ""
 
 teams:
-- teamname: WSSU Team
-# members: []
-  schools: 
-  - name: Winston-Salem State University
-    logo: "/assets/img/logos/schools/wssu.png"
-    url: https://www.wssu.edu/
-# goals:
-# poster:
-# github:
-
-- teamname:  Morehouse Team
-# members: []
-  schools: 
-  - name: Morehouse College
-    logo: "/assets/img/logos/schools/morehouse.jpeg"
-    url: https://morehouse.edu/
-# goals:
-# poster:
-# github:
-
-- teamname: ECSU Team
-# members: []
-  schools: 
-  - name: Elizabeth City State University
-    logo: "/assets/img/logos/schools/ecsu.png"
-    url: https://www.ecsu.edu/
-# goals:
-# poster:
-# github:
-
-- teamname: NSU Team
-# members: []
-  schools:
-  - name: Norfolk State University
-    logo: "/assets/img/logos/schools/nsu.jpeg"
-    url: https://www.austincc.edu/sites/default/files/components/images/tansfer-slide-web02.jpg
-# goals:
-# poster:
-# github:
-
-- teamname: "NCAT/Austin Community College Team"
-# members: []
-  schools: 
-  - name: North Carolina Agricultural and Technical State University
-    logo: "/assets/img/logos/schools/ncat.png"
-    url: https://www.ncat.edu/"
-  - name: Austin Community College
-    logo: "/assets/img/logos/schools/acc.jpeg"
-    url: https://www.austincc.edu/
-# goals:
-# poster:
-# github:
+#- teamname: "Team Rams"
+#  members: [ "Rebecca Caldwell", "Munene Kanampiu" ]
+#  mentor: "Elijah MacCarthy"
+#  schools: 
+#  - name: Winston-Salem State University
+#    logo: "/assets/img/logos/schools/wssu.png"
+#    url: https://www.wssu.edu/
+## themesongname: 
+## themesongurl: 
+#  teamintroimg: "/assets/img/teams/Team_Rams/Teamintro2.png"
+#  teamintropdf: "/assets/img/teams/Team_Rams/TeamRams-Teamintro.pdf"
+#  targetcourses: 
+#  - name: "Java Programming"
+#    coursenumber: "CSC 1311"
+#  goals:
+#  - sessionname: "Checkin #2"
+#    goals: [ "Identifying target course and applicable HPC resources from ORNL/wider HPC community" ]
+#  - sessionname: "Checkin #3"
+#    goals: ["Modify course outline for CSC 1311", "Write lab exercises.", "Work on poster."]
+## poster:
+## github:
+#  files:
+#  - filename: "Zoom Background"
+#    filelink: "/assets/img/teams/Team_Rams/VirtualBackground.jpg"
+#    filetype: "JPG"
 
 
-sponsors:
-- name: Omnibond
-  url: http://omnibond.com/
-  logo: "/assets/img/logos/omnibond-cloudycluster.png"
 
-- name: TACC
-  url: https://tacc.utexas.edu/
-  logo: "/assets/img/logos/tacc-logo.jpeg"
 
-- name: SGCI
-  url: https://sciencegateways.org/
-  logo: "/assets/img/logos/sgci-logo_1.png"
+####################################
+##  Sponsors / Supportters
+###################################
 
-- name: Google
-  url: https://cloud.google.com/
-  logo: "/assets/img/logos/googlecloud.png"
+#sponsors:
+#- name: "Science Gateways Community Institute"
+#  url: https://sciencegateways.org
+
+##################################
+## References
+#################################
+references:
+- name: HackHPC.org 
+  url: http://hackhpc.org
+- name: HackHPC Past Hackathon Events
+  url: http://hackhpc.org/pasthacks/
+- name: HackHPC Datasets
+  url: http://hackhpc.org/data/
+- name: GitHub Markdown Reference
+  url: https://github.github.com/gfm 
+- name: Introduction to GitHub
+  url: https://lab.github.com/githubtraining/introduction-to-github
+- name: Introduction to Version Control
+  url: https://swcarpentry.github.io/git-novice/
+
+dashboards:
+- name: R for Data Science - R for Data Science. Code in R / concepts useful any language
+  url: had.co.nz 
+- name: Tidy data for efficiency, reproducibility, and collaboration
+  url: openscapes.org 
+- name: Tidy data Paper - Original paper by Hadley Wickham (founder of R) who pioneered the concept of tidy data
+  url: https://vita.had.co.nz/papers/tidy-data.pdf
+- name: Tidy data - informal and example code heavy (in R) version
+  url: tidyverse.org 
+- name: Chart Chooser — Juice Analytics
+  url: https://www.juiceanalytics.com/chartchooser
+- name: Plotly graphing library
+  url: https://plotly.com/python/
+- name: Dash App documentation
+  url: https://dash.plotly.com/
+- name: Deploy to Heroku integration from github
+  url: https://devcenter.heroku.com/articles/github-integration
+- name: Dash guidance / command line (scroll past Enterprise information to Heroku / free section
+  url: https://dash.plotly.com/deployment
+
+admi22:
+- name: HackHPC@ADMI22 YouTube Playlist
+  url: https://www.youtube.com/playlist?list=PLk7G3_iq2ijTH7GzPIQZ-L8IfqSUS74X-
+- name: "GitHub and Discord Training"
+  url: https://hackhpc.github.io/ADMI22/github-discord-training/
+- name: " Mentor Overview"
+  url: https://hackhpc.github.io/ADMI22/mentor-training/
+- name: "Data to Dashboard Training"
+  url: https://hackhpc.github.io/ADMI22/data-to-dashboard-training/
+- name: " Begining to End Training"
+  url: https://hackhpc.github.io/ADMI22/end-to-end/
+- name: "Google Cloud Patform and Cloudy Cluster Training"
+  url: https://hackhpc.github.io/ADMI22/google-and-cloudycluster-training/
+
+
+socialmedia:
+- name: Twitter
+  icon: twitter
+  url: https://twitter.com/ccloudhack
+- name: LinkedIn Group
+  icon: linkedin
+  url: https://www.linkedin.com/groups/8859728/
+- name: YouTube Channel
+  icon: youtube
+  url: https://www.youtube.com/channel/UCESkfjHWsERvFpJgPmWXRSA/playlists
+- name: Event Playlist
+  icon: youtube
+  url: https://www.youtube.com/watch?v=T7WNm5aFpfg&list=PLk7G3_iq2ijSIaAp3EqCIRLmEYpZxl8Tx
+- name: Spotify Collaborative Playlist
+  icon: music
+  url: https://open.spotify.com/playlist/57kLEJeOWVzlbn7iBwOiDg?si=2d03e8c4ed0d484a
+
+
+  
+
+
+
+
+     
