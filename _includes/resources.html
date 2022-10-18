@@ -1,0 +1,163 @@
+
+<div id="service">
+    
+   
+<div class="container mtb">
+    <!--
+    <img src="{{ "/assets/img/logos/SGCI-NSF-lfachack.png" | prepend: site.baseurl }}" width="320px" style="float: right;"/>
+    -->    
+            <h2>Session Videos:</h2>
+            <ul>
+                {% for youtube in site.data.sessions.sessions %}
+                    {% for vid in youtube.youtube %}
+                        <li><i class="fa fa-youtube" style="font-size: 14px; padding: 2px; margin: 0px;"></i><b>{{ vid.name }}</b> [{{ youtube.date }}] - <a href="{{ vid.link }}" target="_blank">{{ vid.link }}</a> </li>
+                    {% endfor %}
+
+                {% endfor %}
+            </ul>
+
+            
+            <h2>Site Links:</h2>
+
+            <ul>
+                {% for session in site.data.sessions.sessions %}
+                    {% if session.url %}
+                    <li><em>Session: {{ session.name }}</em> [{{ session.date }}]</li>
+                    <ul>
+                    {% for link in session.url %}
+                        <li><b>{{ link.name}}</b> - <a href="{{ link.url }}" target="_blank"><i class="fa fa-link" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ link.url }}</a> </li>
+                    
+                    {% endfor %}
+                    </ul>
+                    <br>
+                    {% endif %}
+                {% endfor %}
+
+               
+                
+
+                {% assign orgs = site.members %}
+                {% assign affiliations = '' | split: '' %}
+                {% for org in orgs %}
+                    
+                    {% assign org_array = '' | split: '' %}
+                    {% assign org_array = org_array | push: org.position %}
+                    {% assign org_array = org_array | push: org.url %}
+                    
+                    {% unless affiliations contains org_array %}
+                        
+                        {% assign affiliations = affiliations | push: org_array %}
+                    {% endunless %}
+                {% endfor %}
+
+                {% assign mentor_orgs = site.data.sessions.mentors %}
+                {% for org in mentor_orgs %}
+                    
+                    {% assign org_array = '' | split: '' %}
+                    {% assign org_array = org_array | push: org.position %}
+                    {% assign org_array = org_array | push: org.url %}
+                    
+                    {% unless affiliations contains org_array %}
+                        
+                        {% assign affiliations = affiliations | push: org_array %}
+                    {% endunless %}
+                {% endfor %}
+
+                {% for aff in affiliations %}
+                <li><b>{{ aff[0] }}</b> - <a href="{{ aff[1] }}" target="_blank"><i class="fa fa-link" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ aff[1]}} </a> </li>
+                
+                {% endfor %}
+              
+            </ul>
+
+            <hr>
+
+            <h2>File Links:</h2>
+
+            <ul>
+                {% for session in site.data.sessions.sessions %}
+                    {% for file in session.files %}
+                        <li><a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }} </a> [{{ session.date }}]</li>
+                    
+                    {% endfor %}
+
+
+                {% endfor %}
+
+        
+            </ul>
+
+            <hr>
+            <h2>HackHPC Social Media:</h2>
+            <ul>
+
+                {% for ref in site.data.sessions.socialmedia %}
+                    
+                        <li><i class="fa fa-{{ ref.icon }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+                    
+                    {% endfor %}
+
+
+              
+            </ul>
+
+            <hr>
+
+            <h2>Participating Schools:</h2>
+
+            <ul>
+
+                {% for session in site.data.sessions.teams %}
+                    {% for school in session.schools %}
+                        <li><b>{{ school.name }}</b> - <a href="{{ school.url }}" target="_blank"><i class="fa fa-link" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ school.url }}</a> </li>
+                    
+                    {% endfor %}
+
+
+                {% endfor %}
+            </ul>
+
+            <hr>
+            <h2>References:</h2>
+            <ul>
+
+                {% for ref in site.data.sessions.references %}
+                    
+                        <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+                    
+                    {% endfor %}
+                    <br>
+                <u><b>Dashboards and Data Science</b></u>
+                <br>
+                {% for ref in site.data.sessions.dashboards %}
+                    
+                <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+            
+            {% endfor %} 
+
+
+              
+            </ul>
+            <hr>
+            <h2>ADMI22 Training Sessions:</h2>
+
+
+            <ul>
+
+                {% for ref in site.data.sessions.admi22 %}
+                    
+                        <li><b>{{ ref.name }}</b> - <a href="{{ ref.url }}" target="_blank">{{ ref.url }}</a> </li>
+                    
+                    {% endfor %}
+                    <br>
+
+
+              
+            </ul>
+
+
+
+
+
+</div><!--/container -->
+</div>
