@@ -27,9 +27,10 @@
                     {% endif %}
                     <br>
                     {% if session.presenter %}
-                        <u>Presenter:</u> <em><strong>{{ session.presenter }}</strong></em>
+                    {% for sessionpresenter in session.presenter %}
+                        <u>Presenter:</u> <em><strong>{{ sessionpresenter }}</strong></em>
                             {% for presenter in site.data.sessions.presenters %}
-                                {% if session.presenter == presenter.name %}
+                                {% if sessionpresenter == presenter.name %}
                                     [
                                     {% for entry in presenter.social %}
                                     <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
@@ -47,7 +48,7 @@
                                 {% endif %}
                             {% endfor %}
                             {% for presenter in site.members %}
-                                {% if session.presenter == presenter.name %}
+                                {% if sessionpresenter == presenter.name %}
                                     [
                                     {% for entry in presenter.social %}
                                     <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
@@ -65,7 +66,7 @@
                                 {% endif %}
                             {% endfor %} 
                             {% for presenter in site.data.sessions.mentors %}
-                                {% if session.presenter == presenter.name %}
+                                {% if sessionpresenter == presenter.name %}
                                     [
                                     {% for entry in presenter.social %}
                                     <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
@@ -82,9 +83,10 @@
                                     
                                 {% endif %}
                             {% endfor %} 
-    
+                            <br>
+                    {% endfor %}
                     {% endif %}
-                    <br>
+                    
                     {% if session.zoomlink %}
                     <strong>Zoom</strong> <i class="fa fa-video" style="font-size: 14px; padding: 2px; margin: 0px;"></i>: <a href="{{ session.zoomlink }}"> [Meeting Link]</a>
                     {% endif %}

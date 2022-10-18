@@ -19,7 +19,7 @@ sessions:
 #    url:
 - name: "[Pre-Event Training] Mentor Overview and Training (Mentors and Staff Only)" 
   type: "Training"
-  presenter: "Je'aime Powell" 
+  presenter: ["Je'aime Powell", Charlie Dey] 
   date: 10/26/22
   time: "11a ET/10a CT/8a PT"   
   duration: 2hrs
@@ -77,21 +77,21 @@ presenters:
 ###   MENTORS
 ###############################
 mentors:
-#- name: "Elijah MacCarthy"
-#  position: "Oak Ridge National Laboratory"
-#  title: HPC Engineer
-#  url: https://www.ornl.gov
-#  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-#    - title: envelope #use for email address
-#      url: maccarthyea@ornl.gov
-#    - title: linkedin
-#      url: https://www.linkedin.com/in/elijah-maccarthy-ph-d-6176b293/
-#    #- title: twitter
-#    #  url: 
+- name: "Charlie Dey"
+  position: "Texas Advanced Computing Center"
+  title: Director, Training And Professional Development
+  url: https://www.tacc.utexas.edu/
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: charlie@tacc.utexas.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/charlie-dey-0031317a/
+    - title: twitter
+      url: https://twitter.com/DeyCharlie
 #    #- title: github
 #    #  url: 
-#    - title: link
-#      url: https://www.ornl.gov/staff-profile/elijah-maccarthy
+    - title: link
+      url: https://www.tacc.utexas.edu/about/directory/charlie-dey
 #
 #- name: "Adonay Sissay"
 #  position: "Northwestern State University of Louisiana"
