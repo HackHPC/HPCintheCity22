@@ -240,9 +240,9 @@ socialmedia:
 - name: YouTube Channel
   icon: youtube
   url: https://www.youtube.com/channel/UCESkfjHWsERvFpJgPmWXRSA/playlists
-- name: Event Playlist
-  icon: youtube
-  url: https://www.youtube.com/watch?v=T7WNm5aFpfg&list=PLk7G3_iq2ijSIaAp3EqCIRLmEYpZxl8Tx
+#- name: Event Playlist
+#  icon: youtube
+#  url: https://www.youtube.com/watch?v=T7WNm5aFpfg&list=PLk7G3_iq2ijSIaAp3EqCIRLmEYpZxl8Tx
 - name: Spotify Collaborative Playlist
   icon: music
   url: https://open.spotify.com/playlist/57kLEJeOWVzlbn7iBwOiDg?si=2d03e8c4ed0d484a
