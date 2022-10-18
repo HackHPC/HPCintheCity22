@@ -83,7 +83,7 @@ mentors:
   url: https://www.tacc.utexas.edu/
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
-      url: charlie@tacc.utexas.edu
+      url: "mailto:charlie@tacc.utexas.edu"
     - title: linkedin
       url: https://www.linkedin.com/in/charlie-dey-0031317a/
     - title: twitter
