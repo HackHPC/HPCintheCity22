@@ -38,12 +38,33 @@ sessions:
   date: 11/2/22
   time: "11a ET/10a CT/8a PT"  
   duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/97453759545
   icsfile: "/assets/ICS_files/HPCintheCity_Dallas_CloudyCluster_and_Google_Cloud_Platform_Overview.ics"
   description: >  
-    Tutorial/Training session on the use of Omnibond's CloudyCluster on the Google Cloud Platform
+    Tutorial/Training session on the use of Omnibond's CloudyCluster on the Google Cloud Platform.
   url:
   - name: "Google Qwiklabs"
-    url: https://go.qwiklabs.com  
+    url: https://go.qwiklabs.com 
+
+  - name: "[Pre-Event Training] GitHub and Discord Overview" 
+  type: "Training"
+  presenter: "Je'aime Powell" 
+  date: 11/3/22
+  time: "11a ET/10a CT/8a PT"  
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/91856272964
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_GitHub_and_Discord_Training.ics"
+  description: >  
+    Tutorial/Training session on the use of Discord and creation of Github repositories.
+  url:
+  - name: "HackHPC Discord Server"
+    url: https://go.qwiklabs.com 
+  - name: "GitHub"
+    url: https://github.com
+  - name: "Example Github Repo Demo"
+    url: "https://github.com/jeaimehp/Git-Intro"
+  - name: "HPC in the City Site Github Repo"
+    url: https://github.com/HackHPC/HPCintheCity22   
 
 - name: "KICKOFF" 
   type: "Checkin/Training"
@@ -51,23 +72,109 @@ sessions:
   date: 11/3/22
   time: "7p ET/6p CT/4p PT"   
   duration: 2hrs
+  zoomlink: https://utexas.zoom.us/j/8983550172
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Hackathon_Kick-Off.ics"
   description: >  
     Overview, Code of Conduct, Mentor Project Pitches, Team Formation 
-  #zoomlink: "https://us02web.zoom.us/j/9948923871?pwd=eUYvRnlSQlZvUVN2ajVuY1MzdUlmdz09"
-  #zoominfo: "Meeting ID: 994 892 3871  Passcode: 056133" 
-  #icsfile: "/assets/ics_files/sep-15-FacultyHackTraining.ics" 
-  #url:
-  #  - name: "Anaconda"
-  #    url: https://www.anaconda.com/products/distribution
-  #  - name: "Google Colab"
-  #    url: https://colab.research.google.com/
-  #  - name: "Sample Github Repository Code"
-  #    url: https://github.com/jeaimehp/HPC-in-the-City-Python-IDE-Demo
+  #youtube:
+  #- name: 
+  #  link: 
   #files:
-  #  - filename: "Kick-Off Slides - Hayden (PDF)"
-  #    location: "/assets/slidedecks/Sept-15-Kickoff-Hayden.pdf"
+  #- filename: 
+  #  location:
+  #url:
+  #- name: 
+  #  url: 
+  
+- name: "Judges Overview (Event Judges Only)" 
+  type: "Training"
+  presenter: "Linda Hayden" 
+  date: 11/4/22
+  time: "10a ET/9a CT/7a PT"   
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/91534393055 
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Judges_Overview.ics"
+  description: >  
+    Overview of judging criterial and methodologies.
+  #youtube:
+  #- name: 
+  #  link: 
+  #files:
+  #- filename: 
+  #  location:
+  #url:
+  #- name: 
+  #  url: 
+
+- name: "Friday Morning Checkin" 
+  type: "Checkin"
+  presenter: "Je'aime Powell" 
+  date: 11/4/22
+  time: "12p ET/11a CT/9a PT"   
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/91534393055 
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Friday_11-4_Morning_Checkin.ics"
+  description: >  
+    <em>[Team Presentation]</em> Team Introductions (1-slide/1-minute)
+     <br>&nbsp;&nbsp; - Team name
+     <br>&nbsp;&nbsp; - Team members including Mentor and Co-Mentor
+     <br>&nbsp;&nbsp; - Team Theme song
+     <br>&nbsp;&nbsp; - Team Virtual background
+  #youtube:
+  #- name: 
+  #  link: 
+  #files:
+  #- filename: 
+  #  location:
+  #url:
+  #- name: 
+  #  url
 
 
+- name: "Friday Evening Checkin" 
+  type: "Checkin"
+  presenter: "Je'aime Powell" 
+  date: 11/4/22
+  time: "7p ET/6p CT/4p PT"   
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/91534393055 
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Friday_11-4_Evening_Checkin.ics"
+  description: >  
+    <em>[Team Presentation]</em> Project Goals (1-slide/1-minute)
+  #youtube:
+  #- name: 
+  #  link: 
+  #files:
+  #- filename: 
+  #  location:
+  #url:
+  #- name: 
+  #  url
+
+- name: "Saturday Morning Checkin" 
+  type: "Checkin"
+  presenter: "Je'aime Powell" 
+  date: 11/5/22
+  time: "11a ET/10a CT/8a PT"   
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/99660950434
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Saturday_11-5_Morning_Checkin.ics"
+  description: >  
+    <em>[Team Presentation]</em> Project Status and Tasking (1-slide/1-minute)
+  #youtube:
+  #- name: 
+  #  link: 
+  #files:
+  #- filename: 
+  #  location:
+  #url:
+  #- name: 
+  #  url
 
 
 ###############################
@@ -215,6 +322,8 @@ references:
   url: https://lab.github.com/githubtraining/introduction-to-github
 - name: Introduction to Version Control
   url: https://swcarpentry.github.io/git-novice/
+- name: "Google Colab"
+  url: https://colab.research.google.com/
 
 dashboards:
 - name: R for Data Science - R for Data Science. Code in R / concepts useful any language
