@@ -46,7 +46,7 @@ sessions:
   - name: "Google Qwiklabs"
     url: https://go.qwiklabs.com 
 
-  - name: "[Pre-Event Training] GitHub and Discord Overview" 
+- name: "[Pre-Event Training] GitHub and Discord Overview" 
   type: "Training"
   presenter: "Je'aime Powell" 
   date: 11/3/22
