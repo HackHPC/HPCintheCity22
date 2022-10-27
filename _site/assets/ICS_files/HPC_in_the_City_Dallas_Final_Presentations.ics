@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Apple Inc.//macOS 12.6//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:CDT
+TZOFFSETTO:-0500
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:CST
+TZOFFSETTO:-0600
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20221107T190000
+UID:B72F0E42-F1F6-43B4-B94B-1C7F55DEAA46+ZOOMMEETINGNUMBER:97940580682
+DTSTAMP:20221027T175911Z
+LOCATION:https://utexas.zoom.us/j/97940580682
+DESCRIPTION:Important Links:\n- Post Survey: https://forms.gle/47YE7TmXc
+ E8FkbCS6 \n-  Viewer’s Choice Ballot: https://forms.gle/WsKvGDJerdXSACMr
+ 7 \n- YouTube Livestream: https://youtu.be/tZQl6zcgsZo \n\nJe'aime Powel
+ l is inviting you to a scheduled Zoom meeting.\n\nTopic: [HPC in the Cit
+ y: Dallas] Final Presentations\nTime: Nov 7\, 2022 05:00 PM Central Time
+  (US and Canada)\n\nJoin Zoom Meeting\nhttps://utexas.zoom.us/j/97940580
+ 682\n\nMeeting ID: 979 4058 0682\nOne tap mobile\n+16699006833\,\,979405
+ 80682# US (San Jose)\n+17193594580\,\,97940580682# US\n\nDial by your lo
+ cation\n        +1 669 900 6833 US (San Jose)\n        +1 719 359 4580 U
+ S\n        +1 253 215 8782 US (Tacoma)\n        +1 346 248 7799 US (Hous
+ ton)\n        +1 669 444 9171 US\n        +1 646 931 3860 US\n        +1
+  929 205 6099 US (New York)\n        +1 301 715 8592 US (Washington DC)\
+ n        +1 309 205 3325 US\n        +1 312 626 6799 US (Chicago)\n     
+    +1 360 209 5623 US\n        +1 386 347 5053 US\n        +1 564 217 20
+ 00 US\nMeeting ID: 979 4058 0682\nFind your local number: https://utexas
+ .zoom.us/u/aexO51EXwW\n\nJoin by SIP\n97940580682@zoomcrc.com\n\nJoin by
+  H.323\n162.255.37.11 (US West)\n162.255.36.11 (US East)\n115.114.131.7 
+ (India Mumbai)\n115.114.115.7 (India Hyderabad)\n213.19.144.110 (Amsterd
+ am Netherlands)\n213.244.140.110 (Germany)\n103.122.166.55 (Australia Sy
+ dney)\n103.122.167.55 (Australia Melbourne)\n149.137.40.110 (Singapore)\
+ n64.211.144.160 (Brazil)\n149.137.68.253 (Mexico)\n69.174.57.160 (Canada
+  Toronto)\n65.39.152.160 (Canada Vancouver)\n207.226.132.110 (Japan Toky
+ o)\n149.137.24.110 (Japan Osaka)\nMeeting ID: 979 4058 0682\n\n
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY;LANGUAGE=us-EN:[HPC in the City: Dallas] Final Presentations
+LAST-MODIFIED:20221027T184052Z
+CREATED:20221027T175909Z
+DTSTART;TZID=America/Chicago:20221107T170000
+BEGIN:VALARM
+X-WR-ALARMUID:04803FE7-8EC0-4422-9867-F094B8C78D04
+UID:04803FE7-8EC0-4422-9867-F094B8C78D04
+TRIGGER:-PT10M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

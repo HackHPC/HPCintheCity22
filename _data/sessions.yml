@@ -22,9 +22,28 @@ sessions:
   presenter: ["Je'aime Powell", Charlie Dey] 
   date: 10/26/22
   time: "11a ET/10a CT/8a PT"   
-  duration: 2hrs
+  duration: 1hrs
   description: >  
     Mentor training and event overview. 
+  youtube:
+  - name: Mentor Overview Recording
+    link: https://youtu.be/rFUWWrZ0fnc
+  files:
+  - filename: "[Updated] Mentor Overview Slide Deck"
+    location: "/assets/slides/Mentor_Overview.pdf"
+  
+- name: "[Pre-Event Training] CloudyCluster and Google Cloud Platform Overview" 
+  type: "Training"
+  presenter: "Cole McKnight" 
+  date: 11/2/22
+  time: "11a ET/10a CT/8a PT"  
+  duration: 1hrs
+  icsfile: "/assets/ICS_files/HPCintheCity_Dallas_CloudyCluster_and_Google_Cloud_Platform_Overview.ics"
+  description: >  
+    Tutorial/Training session on the use of Omnibond's CloudyCluster on the Google Cloud Platform
+  url:
+  - name: "Google Qwiklabs"
+    url: https://go.qwiklabs.com  
 
 - name: "KICKOFF" 
   type: "Checkin/Training"
@@ -47,6 +66,8 @@ sessions:
   #files:
   #  - filename: "Kick-Off Slides - Hayden (PDF)"
   #    location: "/assets/slidedecks/Sept-15-Kickoff-Hayden.pdf"
+
+
 
 
 ###############################
@@ -92,22 +113,22 @@ mentors:
 #    #  url: 
     - title: link
       url: https://www.tacc.utexas.edu/about/directory/charlie-dey
-#
-#- name: "Adonay Sissay"
-#  position: "Northwestern State University of Louisiana"
-#  title: Assistant Professor of Chemistry
-#  url: https://www.nsula.edu
-#  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-#    - title: envelope #use for email address
-#      url: sissaya@nsula.edu
+
+- name: "Cole McKnight"
+  position: "Omnibond"
+  title: CloudyCluster Engineer
+  url: http://omnibond.com/
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: cole@omnibond.com
 #    #- title: linkedin
 #    #  url: https://www.linkedin.com/in/adonay-sissay-57197a34/
 #    #- title: twitter
 #    #  url: 
 #    #- title: github
 #    #  url: 
-#    - title: link
-#      url: https://www.nsula.edu/sissay-joins-scholars-as-new-chemistry-professor/
+    - title: link
+      url: http://cloudycluster.com
 #
 
 
