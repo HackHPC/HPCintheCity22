@@ -68,7 +68,7 @@ sessions:
 
 - name: "KICKOFF" 
   type: "Checkin/Training"
-  presenter: "Je'aime Powell" 
+  presenter: ["Je'aime Powell", "Alex Nolte"] 
   date: 11/3/22
   time: "7p ET/6p CT/4p PT"   
   duration: 2hrs
@@ -110,7 +110,7 @@ sessions:
 
 - name: "Friday Morning Checkin" 
   type: "Checkin"
-  presenter: "Je'aime Powell" 
+  #presenter: "Je'aime Powell" 
   date: 11/4/22
   time: "12p ET/11a CT/9a PT"   
   duration: 1hrs
@@ -136,7 +136,7 @@ sessions:
 
 - name: "Friday Evening Checkin" 
   type: "Checkin"
-  presenter: "Je'aime Powell" 
+  #presenter: "Je'aime Powell" 
   date: 11/4/22
   time: "7p ET/6p CT/4p PT"   
   duration: 1hrs
@@ -157,7 +157,7 @@ sessions:
 
 - name: "Saturday Morning Checkin" 
   type: "Checkin"
-  presenter: "Je'aime Powell" 
+  #presenter: "Je'aime Powell" 
   date: 11/5/22
   time: "11a ET/10a CT/8a PT"   
   duration: 1hrs
@@ -176,6 +176,104 @@ sessions:
   #- name: 
   #  url
 
+- name: "Saturday Evening Checkin" 
+  type: "Checkin"
+  #presenter: "Je'aime Powell" 
+  date: 11/5/22
+  time: "7p ET/6p CT/4p PT"   
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/99660950434
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Saturday_11-5_Evening_Checkin.ics"
+  description: >  
+    <em>[Team Presentation]</em> Project 1-Day Progress (1-slide/1-minute)
+  #youtube:
+  #- name: 
+  #  link: 
+  #files:
+  #- filename: 
+  #  location:
+  #url:
+  #- name: 
+  #  url
+
+- name: "Sunday Evening Checkin" 
+  type: "Checkin"
+  #presenter: "Je'aime Powell" 
+  date: 11/6/22
+  time: "11a ET/10a CT/8a PT"   
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/94763460333
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Sunday_11-6_Morning_Checkin.ics"
+  description: >  
+    <em>[Team Presentation]</em> Project Status and Tasking (1-slide/1-minute)
+  #youtube:
+  #- name: 
+  #  link: 
+  #files:
+  #- filename: 
+  #  location:
+  #url:
+  #- name: 
+  #  url
+
+- name: "Monday Morning - Last Checkin" 
+  type: "Checkin"
+  #presenter: "Je'aime Powell" 
+  date: 11/7/22
+  time: "11a ET/10a CT/8a PT"   
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/98879963766
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Monday_11-7_Morning_Checkin.ics"
+  description: >  
+    <em>[Mentor Presentation]</em> Team Introduction Videos
+    <br> - Post Survey Opens
+    <br> - Viewer’s Choice Ballot Opens
+    
+  #youtube:
+  #- name: 
+  #  link: 
+  #files:
+  #- filename: 
+  #  location:
+  url:
+  - name: Post Survey
+    url: https://forms.gle/47YE7TmXcE8FkbCS6
+  - name: Viewer’s Choice Ballot
+    url: https://forms.gle/WsKvGDJerdXSACMr7 
+  - name: YouTube Livestream
+    url: https://youtu.be/tZQl6zcgsZo 
+  
+- name: "Final Presentations" 
+  type: "Presentations"
+  #presenter: "Je'aime Powell" 
+  date: 11/7/22
+  time: "6p ET/5p CT/3p PT"   
+  duration: 1hrs
+  zoomlink: https://utexas.zoom.us/j/97940580682
+  #zoominfo:
+  icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Final_Presentations.ics"
+  description: >  
+    <strong>[Deliverables Due] Github Repo Link</strong>
+     <br>&nbsp;&nbsp;- PDF of Presentation Slides
+     <br>&nbsp;&nbsp; - Source code
+     <br>&nbsp;&nbsp; - README.md with Project Goals and Team Members
+    
+  #youtube:
+  #- name: 
+  #  link: 
+  #files:
+  #- filename: 
+  #  location:
+  url:
+  - name: Post Survey
+    url: https://forms.gle/47YE7TmXcE8FkbCS6
+  - name: Viewer’s Choice Ballot
+    url: https://forms.gle/WsKvGDJerdXSACMr7 
+  - name: YouTube Livestream
+    url: https://youtu.be/tZQl6zcgsZo 
 
 ###############################
 ###   PRESENTERS
