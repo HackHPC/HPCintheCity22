@@ -331,7 +331,7 @@ mentors:
   url: http://omnibond.com/
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
-      url: cole@omnibond.com
+      url: "mailto:cole@omnibond.com"
 #    #- title: linkedin
 #    #  url: https://www.linkedin.com/in/adonay-sissay-57197a34/
 #    #- title: twitter
