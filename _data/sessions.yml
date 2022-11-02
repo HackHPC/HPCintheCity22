@@ -45,6 +45,12 @@ sessions:
   url:
   - name: "Google Qwiklabs"
     url: https://go.qwiklabs.com 
+  youtube:
+  - name: CloudyCluster and Google Cloud Platform Overview Recording
+    link: https://youtu.be/-W9JBCZ_tpw
+  file: 
+  - filename: CloudyCluster and Google Cloud Platform Overview Slide Deck
+    location: "/assets/slides/CloudyCluster_and_GoogleCloudPlatform Overview.pdf"
 
 - name: "[Pre-Event Training] GitHub and Discord Overview" 
   type: "Training"
