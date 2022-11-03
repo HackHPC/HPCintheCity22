@@ -83,6 +83,8 @@ sessions:
   files:
   - filename: GitHub and Discord Overview Slide Deck
     location: "/assets/slides/GitHub and Discord Overview.pdf"
+
+    
 - name: "KICK-OFF!!" 
   type: "Checkin/Training"
   presenter: ["Je'aime Powell", "Alex Nolte"] 
@@ -95,9 +97,9 @@ sessions:
   description: >  
     Overview, Code of Conduct, Mentor Project Pitches, Team Formation 
   youtube:
-  - name:  Code of Conduct
+  - name: "Code of Conduct"
     link: https://youtu.be/cNbmYDpcj-s
-  - name: Judging Criteria
+  - name: "Judging Criteria"
     link: https://youtu.be/MaF6TqzgW00
   files:
   - filename: Code of Conduct Slides
