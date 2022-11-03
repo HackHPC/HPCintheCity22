@@ -48,7 +48,7 @@ sessions:
   youtube:
   - name: CloudyCluster and Google Cloud Platform Overview Recording
     link: https://youtu.be/-W9JBCZ_tpw
-  file: 
+  files: 
   - filename: CloudyCluster and Google Cloud Platform Overview Slide Deck
     location: "/assets/slides/CloudyCluster_and_GoogleCloudPlatform Overview.pdf"
 
