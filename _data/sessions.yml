@@ -196,9 +196,11 @@ sessions:
   #files:
   #- filename: 
   #  location:
-  #url:
-  #- name: 
-  #  url
+  url:
+  - name: "Texas Advanced Computing Center (TACC)"
+    url: https://www.tacc.utexas.edu
+  - name: "Women in HPC"
+    url: https://womeninhpc.org
 
 - name: "Saturday Evening Checkin" 
   type: "Checkin"
