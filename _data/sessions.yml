@@ -433,15 +433,16 @@ sponsors:
 - name: "Science Gateways Community Institute"
   url: https://sciencegateways.org
   logo: "/assets/img/logos/supporters-logos/sgci-logo_1.png"
-- name: "Texas Advanced Computing Center"
-  url: https://www.tacc.utexas.edu
-  logo: "/assets/img/logos/supporters-logos/TACC-formal-Black-1c-300dpi.png"
-- name: "Intel"
-  url: https://www.intel.com
-  logo: "/assets/img/logos/supporters-logos/intel.png"
 - name: "Globus"
   url: https://www.globus.org
   logo: "/assets/img/logos/supporters-logos/globus.png"
+- name: "Intel"
+  url: https://www.intel.com
+  logo: "/assets/img/logos/supporters-logos/intel.png"
+- name: "Texas Advanced Computing Center"
+  url: https://www.tacc.utexas.edu
+  logo: "/assets/img/logos/supporters-logos/TACC-formal-Black-1c-300dpi.png"
+
 - name: "Google Cloud"
   url: https://cloud.google.com
   logo: "/assets/img/logos/supporters-logos/googlecloud.png"
