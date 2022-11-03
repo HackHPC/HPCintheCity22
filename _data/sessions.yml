@@ -84,7 +84,7 @@ sessions:
   - filename: GitHub and Discord Overview Slide Deck
     location: "/assets/slides/GitHub and Discord Overview.pdf"
 
-    
+
 - name: "KICK-OFF!!" 
   type: "Checkin/Training"
   presenter: ["Je'aime Powell", "Alex Nolte"] 
@@ -180,7 +180,7 @@ sessions:
 
 - name: "Saturday Morning Checkin" 
   type: "Checkin"
-  #presenter: "Je'aime Powell" 
+  presenter: "Melyssa Fratkin" 
   date: 11/5/22
   time: "11a ET/10a CT/8a PT"   
   duration: 1hrs
@@ -302,21 +302,21 @@ sessions:
 ###   PRESENTERS
 ###############################
 presenters:
-#- name: "Jeff Wood"
-#  position: "Science Gateways Community Institute"
-#  title: Education Program Manager (Retired &#127881;)
-#  url: http://nia.ecsu.edu
-#  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-#    - title: envelope #use for email address
-#      url: mailto:wood684@gmail.com
-#    - title: linkedin
-#      url: https://www.linkedin.com/in/jeff-wood-684b2a13/
+- name: "Melyssa Fratkin"
+  position: "Texas Advanced Computing Center"
+  title: Industrial Programs Director
+  url: https://www.tacc.utexas.edu
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+  - title: envelope #use for email address
+    url: mailto:mfratkin@tacc.utexas.edu
+  - title: linkedin
+    url: https://www.linkedin.com/in/melyssa-fratkin
 #    #- title: twitter
 #    #  url: 
 #    #- title: github
 #    #  url: 
-#    - title: link
-#      url: http://nia.ecsu.edu/sp/staff/jaw/index.htm
+  - title: link
+    url: https://www.tacc.utexas.edu/about/directory/melyssa-fratkin
 
 
 
