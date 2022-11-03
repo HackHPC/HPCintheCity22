@@ -16,6 +16,13 @@
                 {% endfor %}
             </ul>
 
+            <h2>Zoom Links:</h2>
+            <ul>
+                {% for session in site.data.sessions.sessions %}
+                <li>[{{ session.date }}] <em>{{ session.name }}</em> - <a href="{{ session.zoomlink }}" target="_blank"></a>>{{ session.zoomlink }}</a>
+                </li> 
+                {% endfor %}
+            </ul>
             
             <h2>Site Links:</h2>
 
