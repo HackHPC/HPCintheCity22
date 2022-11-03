@@ -97,9 +97,11 @@ sessions:
   #youtube:
   #- name: 
   #  link: 
-  #files:
-  #- filename: 
-  #  location:
+  files:
+  - filename: Code of Conduct Slides
+    location: "/assets/slides/code_of_conduct.pdf"
+  - filename: Judging Criteria Slides
+    location: "/assets/slides/judging_criteria.pdf"
   #url:
   #- name: 
   #  url: 
