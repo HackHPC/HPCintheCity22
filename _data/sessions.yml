@@ -197,8 +197,8 @@ sessions:
   #- filename: 
   #  location:
   url:
-  - name: "Texas Advanced Computing Center (TACC)"
-    url: https://www.tacc.utexas.edu
+  - name: "Texas Advanced Computing Center (TACC) Jobs"
+    url: https://www.tacc.utexas.edu/about/jobs
   - name: "Women in HPC"
     url: https://womeninhpc.org
 
