@@ -45,6 +45,10 @@ sessions:
   url:
   - name: "Google Qwiklabs"
     url: https://go.qwiklabs.com 
+  - name: "Google Cloud Platform (GCP)"
+    url: https://cloud.google.com
+  - name: "CloudyCluster on GCP Marketplace"
+    url: "https://console.cloud.google.com/marketplace/details/omnibond/cloudycluster?utm_source=Google%20Cloud&utm_medium=Partner%20Directory&utm_campaign=GCP%20Marketplace" 
   youtube:
   - name: CloudyCluster and Google Cloud Platform Overview Recording
     link: https://youtu.be/-W9JBCZ_tpw
