@@ -94,9 +94,11 @@ sessions:
   icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Hackathon_Kick-Off.ics"
   description: >  
     Overview, Code of Conduct, Mentor Project Pitches, Team Formation 
-  #youtube:
-  #- name: 
-  #  link: 
+  youtube:
+  - name:  Code of Conduct
+    link: https://youtu.be/cNbmYDpcj-s
+  - name: Judging Criteria
+    link: https://youtu.be/MaF6TqzgW00
   files:
   - filename: Code of Conduct Slides
     location: "/assets/slides/code_of_conduct.pdf"
