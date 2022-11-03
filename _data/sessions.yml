@@ -423,24 +423,31 @@ teams:
 
 
 ####################################
-##  Sponsors / Supportters
+##  Sponsors / Supporters
 ###################################
 
 sponsors:
 - name: "CloudyCluster"
-  url: https://cloudycluster.com/
+  url: https://cloudycluster.com
+  logo: "/assets/img/logos/supporters-logos/omnibond-cloudycluster.png"
 - name: "Science Gateways Community Institute"
   url: https://sciencegateways.org
+  logo: "/assets/img/logos/supporters-logos/sgci-logo_1.png"
 - name: "Texas Advanced Computing Center"
   url: https://www.tacc.utexas.edu
+  logo: "/assets/img/logos/supporters-logos/TACC-formal-Black-1c-300dpi.png"
 - name: "Intel"
   url: https://www.intel.com
+  logo: "/assets/img/logos/supporters-logos/intel.png"
 - name: "Globus"
   url: https://www.globus.org
+  logo: "/assets/img/logos/supporters-logos/globus.png"
 - name: "Google Cloud"
   url: https://cloud.google.com
+  logo: "/assets/img/logos/supporters-logos/googlecloud.png"
 - name: "XSEDE"
   url: https://access-ci.org
+  logo: "/assets/img/logos/supporters-logos/XSEDE_Logo_Blue.png"
 
 ##################################
 ## References
