@@ -108,6 +108,8 @@ sessions:
     location: "/assets/slides/judging_criteria.pdf"
   - filename: "Kick-Off Slide Deck"
     location: "/assets/slides/Kick-Off.pdf"
+  - filename: "Mentor Pitch Slides"
+    location: "/assets/slides/Mentor_Pitches.pdf"
   #url:
   #- name: 
   #  url: 
