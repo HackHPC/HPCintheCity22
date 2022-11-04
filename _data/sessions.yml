@@ -101,6 +101,8 @@ sessions:
     link: https://youtu.be/cNbmYDpcj-s
   - name: "Judging Criteria"
     link: https://youtu.be/MaF6TqzgW00
+  - name: "Kick-Off Session Video"
+    link: https://youtu.be/5N4u6PXmLoo
   files:
   - filename: Code of Conduct Slides
     location: "/assets/slides/code_of_conduct.pdf"
