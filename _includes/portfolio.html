@@ -1,22 +1,133 @@
-<div id="portfoliowrap">
-    <div class="portfolio-centered">
+<div id="service">
+
+    <div class="container mtb">
         
          {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
-        <div class="recentitems portfolio">
+     
+            <table>
             {% for team in site.data.sessions.teams %}
-                <div class="portfolio-item graphic-design" >
-                    <div class="he-wrap tpl6" >
-                        <h2>{{ team.teamname }}</h2> <br>
-                            {% for school in team.schools %}
-                                <a href="{{ school.url }}" target="_blank"><img src="{{ school.logo | prepend: site.baseurl }}" alt="{{ school.name }}" width="200px"></a>
-                                <br>
+            <tr>
+                <td>
+                <h1 id="{{ team.teamname }}">{{ team.teamname }}</h1>
+                </td>
+                <td>
+                {% for school in team.schools %}    
+                <a href="{{ school.url }}" target="_blank"><img src="{{ school.logo | prepend: site.baseurl }}" alt="{{ school.name }}" width="200px" style="float:right;"></a>
+                &nbsp;&nbsp;
+                {% endfor %}
+                </td>
+                
+            </tr>
+            <tr style="border-bottom: 2px solid black;">
+                <td style="width: 40%; ">
+                        
+                            <h3>Members:</h3>
+                            <b>Team Mentor:</b><br> {{ team.mentor }}
+                                {% for ment in site.data.sessions.mentors %}
+                                    {% if ment.name == team.mentor %}
+                                    [ {% for entry in ment.social %}
+                                    <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
+                                    {% endfor %} ] <br>
+                                       <a href="{{ ment.url }}" target="_blank"><em>{{ ment.position }}</em></a>
+                                    {% endif %}
+                                {% endfor %}
+                                {% for ment in site.members %}
+                                    {% if ment.name == team.mentor %}
+                                    [ {% for entry in ment.social %}
+                                    <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
+                                    {% endfor %} ] <br>
+                                     <a href="{{ ment.url }}" target="_blank"><em>{{ ment.position }}</em></a>
+                                    {% endif %}
+                                {% endfor %}
+                            <br> <br>
+                            <b>Faculty Members:</b><br>
+                            <ul>
+                                {% for member in team.members %}
+                                <li>{{ member }}</li>
+                                {% endfor %}
+                            </ul>
+                            <br>
+                            <h3>Target Course(s):</h3>
+                            {% for course in team.targetcourses %}
+                                <ul>
+                                    <li> {{ course.name }} {% if course.number %} ({{ course.coursenumber }}) {% endif %}</li>
+                                </ul>
+                            {% else %}
+                                <em>In Progress</em>
                             {% endfor %}
-                    </div><!-- he wrap -->
-                </div><!-- end col-12 -->
+
+                            <h3>Goals:</h3>
+                            {% for sessiongoals in team.goals %}
+                                <ul>
+                                    <li><b>{{ sessiongoals.sessionname }}</b>
+                                        <ul>
+                                            {% for goal in sessiongoals.goals%}
+                                            <li>
+                                                {{ goal }}
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+
+
+                                    </li>
+
+                                </ul>
+                            {% else %}
+                                <em>In Progress</em>
+                            {% endfor %}
+
+                            <h3>Links:</h3>
+                            <ul>
+                                {% if team.themesongname %}
+                                <li>Theme Song: <a href="{{ team.themesongurl }}">{{ team.themesongname }} </a></li> 
+                                {% endif %} 
+                                {% if team.teamintropdf %}
+                                <li>Team Introduction Slide: <a href="{{ team.teamintropdf | prepend: site.baseurl }}">[PDF]</a></li> 
+                                {% endif %} 
+                                
+                                {% if team.files %}
+                                    {% for file in team.files %}
+                                    <li>{{ file.filename }}: <a href="{{ file.filelink | prepend: site.baseurl }}">[{{ file.filetype }}]</a></li> 
+                                    {% endfor %}
+                                {% endif %}
+                                
+                                {% if team.poster %}
+                                <li>Poster: <a href="{{ team.poster | prepend: site.baseurl }}">[PDF]</a></li> 
+                                {% endif %}
+                                {% if team.github %}
+                                <li>Github Repository: <a href="{{ team.github }}">[Link]</a></li> 
+                                {% endif %}
+
+                            </ul>
+
+
+                           
+
+
+                        </td>
+                        <td >
+                            
+                            <br>
+                        {% if team.teamawards %}
+                            {% for award in team.teamawards %} 
+                                <h3 style="color: #fea500">&#127942; {{ award }}</h3>
+                            {% endfor %}
+                            <br>
+                        {% endif %}
+
+                            {% if team.teamintroimg %}
+                                <a href="{{ team.teamintropdf | prepend: site.baseurl }}"><img src="{{ team.teamintroimg | prepend:site.baseurl }}"></a>
+                            {% endif %}
+
+                        </td>
+            </tr>
             {% endfor %}
+        </table>
+
+
+    
+ </div>
+ </div>
 
 
 
-        </div><!-- portfolio -->
-    </div><!-- portfolio container -->
-</div><!--/Portfoliowrap -->
