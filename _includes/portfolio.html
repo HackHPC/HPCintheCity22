@@ -50,7 +50,7 @@
                             <b>Hackers:</b><br>
                             <ul>
                                 {% for member in team.members %}
-                                <li>{{ member.name }} - {% if member.social %}<a href="{{ member.social }}"><i class="fa fa-{{ member.icon }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a> {% endif %}
+                                <li>{{ member.name }} - {% if member.social %}[<a href="{{ member.social }}"><i class="fa fa-{{ member.icon }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>] {% endif %}
                                     {% if member.school %} <a href="{{member.schoolurl}}" target="_blank">{{ member.school }}</a> {% endif %} {% if member.major %}<em>[{{ member.major }}]</em>{% endif%}
                                 
                                 </li>
