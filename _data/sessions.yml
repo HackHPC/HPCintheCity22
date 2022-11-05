@@ -210,15 +210,17 @@ sessions:
 
 - name: "Saturday Evening Checkin" 
   type: "Checkin"
-  #presenter: "Je'aime Powell" 
+  presenter: "Amy Cannon" 
   date: 11/5/22
   time: "7p ET/6p CT/4p PT"   
   duration: 1hrs
   zoomlink: https://utexas.zoom.us/j/99660950434
   #zoominfo:
   icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Saturday_11-5_Evening_Checkin.ics"
-  description: >  
+  description: >
+    [Supporter Welcome]<strong>Omnibond Systems</strong>  
     <em>[Team Presentation]</em> Project 1-Day Progress (1-slide/1-minute)
+
   #youtube:
   #- name: 
   #  link: 
