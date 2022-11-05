@@ -354,6 +354,8 @@ mentors:
 - name: "Cole McKnight"
   position: "Omnibond"
   title: CloudyCluster Engineer
+  team: "Team Genie"
+  role: "Mentor" 
   url: http://omnibond.com/
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
@@ -367,6 +369,237 @@ mentors:
     - title: link
       url: http://cloudycluster.com
 #
+
+- name: "Andrianina Raharijao"
+  position: "CUNY Lehman College"
+  #title:
+  team: "Sonar Skills"
+  role: "Co-Mentor" 
+  url: "https://www.lehman.cuny.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:raharijaoandrianina@gmail.com"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/andrianina-raharijao/"
+#
+
+- name: "Omar Ocasio"
+  position: "Interamerican University of Puerto Rico Bayamon Campus"
+  #title:
+  team: "Jazz Frogs"
+  role: "Co-Mentor" 
+  url: "https://www.inter.edu/department/bayamon/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:omancasio@gmail.com"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/omar-ocasio-b6768a212"
+#
+
+- name: "Trent Gaylord"
+  position: "Morehouse College"
+  #title:
+  team: "Emote-ping"
+  role: "Co-Mentor" 
+  url: "https://morehouse.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:tgaylord2024@gmail.com"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/trent-gaylord-2024/"
+#
+
+- name: "Adonay Sissay"
+  position: "Northwestern State University"
+  #title:
+  team: "Mr.Roger’s - 20 Min Neighborhoods"
+  role: "Co-Mentor" 
+  url: "https://www.nsula.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:sissaya@nsula.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: link
+      url: "https://my.nsula.edu/my/mobile/faculty/facprofile.php?fid=sissaya"
+#
+
+- name: "Josselyn Salgado"
+  position: "Science Gateways Community Institute"
+  #title:
+  team: "Emote-ping"
+  role: "Mentor" 
+  url: "https://sciencegateways.org/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:josselyns45@gmail.com"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/josselynsalgado"
+#
+
+- name: "William Mobley"
+  position: "Texas Advanced Computing Center (TACC)"
+  #title:
+  team: "EcoLocation"
+  role: "Mentor" 
+  url: "https://www.tacc.utexas.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:wmobley@tacc.utexas.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/william-mobley-0b716654/"
+#
+
+- name: "Edgar Garza"
+  position: "Texas Advanced Computing Center (TACC)"
+  #title:
+  team: "Mr.Roger’s - 20 Min Neighborhoods"
+  role: "Staff" 
+  url: "https://www.tacc.utexas.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:egarza@tacc.utexas.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/edgargarza7/"
+#
+
+- name: "Pat Scherer"
+  position: "Texas Advanced Computing Center (TACC)"
+  #title:
+  team: "Mr.Roger’s - 20 Min Neighborhoods"
+  role: "Staff" 
+  url: "https://www.tacc.utexas.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:pscherer@tacc.utexas.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/patscherer/"
+#
+
+- name: "Geoffrey Reid"
+  position: "Texas Advanced Computing Center (TACC)"
+  #title:
+  team: "Sonar Skills"
+  role: "Mentor" 
+  url: "https://www.tacc.utexas.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:greid@tacc.utexas.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "http://linkedin.com/in/gdreid"
+#
+
+- name: "Annaclaire Kepple"
+  position: "University of Texas at Austin"
+  #title:
+  team: "Jazz Frogs"
+  role: "Student Mentor" 
+  url: "https://www.utexas.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:anna.mkepple@utexas.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "http://www.linkedin.com/in/Annaclaire-Kepple"
+#
+
+- name: "Munene Kanampiu"
+  position: "Winston-Salem State University"
+  #title:
+  team: "Emote-ping"
+  role: "Student Mentor" 
+  url: "https://www.wssu.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:kanampiumw@wssu.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/munene-kanampiu-4973752a/"
+#
+
+- name: "Hector Santiago"
+  position: "Winston-Salem State University"
+  #title:
+  team: "Sonar Skills"
+  role: "Student Mentor" 
+  url: "https://www.wssu.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:hector.santiagomarti@gmail.com"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "http://www.linkedin.com/in/hmsiii"
+#
+
+
+
 
 
 
