@@ -229,7 +229,7 @@ sessions:
   #- name: 
   #  url
 
-- name: "Sunday Evening Checkin" 
+- name: "Sunday Morning Checkin" 
   type: "Checkin"
   #presenter: "Je'aime Powell" 
   date: 11/6/22
