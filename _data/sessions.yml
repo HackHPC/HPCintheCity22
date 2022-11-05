@@ -446,11 +446,30 @@ mentors:
       url: "https://my.nsula.edu/my/mobile/faculty/facprofile.php?fid=sissaya"
 #
 
+- name: "La Tasha Roberts"
+  position: "Austin Community College"
+  #title:
+  team: "Sonar Skills"
+  role: "Mentor" 
+  url: "https://www.austincc.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:lrobert2@austincc.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/la-tasha-roberts-3a3b1533/"
+#
+
 - name: "Josselyn Salgado"
   position: "Science Gateways Community Institute"
   #title:
   team: "Emote-ping"
-  role: "Mentor" 
+  role: "Student Mentor" 
   url: "https://sciencegateways.org/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
@@ -484,11 +503,31 @@ mentors:
       url: "https://www.linkedin.com/in/william-mobley-0b716654/"
 #
 
+- name: "Alfred Watkins"
+  position: "Morehouse College"
+  #title:
+  team: "EcoLocation"
+  role: "Co-Mentor" 
+  url: "https://morehouse.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:alfred.watkins@morehouse.edu"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/alfred-watkins-85890b5/"
+#
+
+
 - name: "Edgar Garza"
   position: "Texas Advanced Computing Center (TACC)"
   #title:
   team: "Mr.Roger’s - 20 Min Neighborhoods"
-  role: "Staff" 
+  role: "Technical Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
@@ -507,7 +546,7 @@ mentors:
   position: "Texas Advanced Computing Center (TACC)"
   #title:
   team: "Mr.Roger’s - 20 Min Neighborhoods"
-  role: "Staff" 
+  role: "Technical Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
@@ -526,7 +565,7 @@ mentors:
   position: "Texas Advanced Computing Center (TACC)"
   #title:
   team: "Sonar Skills"
-  role: "Mentor" 
+  role: "Co-Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
@@ -540,6 +579,26 @@ mentors:
     - title: linkedin
       url: "http://linkedin.com/in/gdreid"
 #
+
+- name: "Quynhmai Tran"
+  position: "University of Texas at Austin"
+  #title:
+  team: "Jazz Frogs"
+  role: "Student Mentor" 
+  url: "https://www.utexas.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:quynhmai.tran11@gmail.com"
+#    #- title: linkedin
+#    #  url: 
+#    #- title: twitter
+#    #  url: 
+#    #- title: github
+#    #  url: 
+    - title: linkedin
+      url: "https://www.linkedin.com/in/quynhmaintran/"
+#
+
 
 - name: "Annaclaire Kepple"
   position: "University of Texas at Austin"
@@ -564,7 +623,7 @@ mentors:
   position: "Winston-Salem State University"
   #title:
   team: "Emote-ping"
-  role: "Student Mentor" 
+  role: "Mentor" 
   url: "https://www.wssu.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
     - title: envelope #use for email address
@@ -608,7 +667,12 @@ mentors:
 ###############################
 #teams:
 # - teamname:
-#   members: []
+#   members:
+#   - name:
+#     major:
+#     school:
+#     social:
+#     icon:    
 #   mentor:
 #   schools:
 #   - name:
@@ -632,9 +696,158 @@ mentors:
 #    filetype: ""
 
 teams:
-#- teamname: "Team Rams"
-#  members: [ "Rebecca Caldwell", "Munene Kanampiu" ]
-#  mentor: "Elijah MacCarthy"
+- teamname: "EcoLocation"
+  mentor: "William Mobley"
+  comentor: "Alfred Watkins"
+  #staff: ""
+  members:
+  - name: "Khadar Coleman"
+    major: "Computer Science"
+    school: "Morehouse College"
+    schoolurl: "https://morehouse.edu/"
+    social: "https://www.linkedin.com/in/khadar-coleman-983a19247/"
+  icon: "linkedin"
+  - name: "Alfred Watkins"
+    major: ""
+    school: "Morehouse College"
+    schoolurl: "https://morehouse.edu/"
+    social: "https://www.linkedin.com/in/alfred-watkins-85890b5/"
+    icon: "linkedin"
+  - name: "Govnor Payne"
+    major: "Computer Science"
+    school: "University of Texas at Austin"
+    schoolurl: "https://www.utexas.edu/"
+    social: "http://linkedin.com/in/govnor-payne-29090814b"
+    icon: "linkedin"
+
+
+- teamname: "Emote-ping"
+  mentor: ["Josselyn Salgado", "Trent Gaylord", "Munene Kanampiu"]
+  members:
+  - name: "Javid Ibrahimov"
+    major: "Computer Science"
+    school: "Mississippi Valley State University"
+    schoolurl: "https://www.mvsu.edu/"
+    social: "https://www.linkedin.com/in/javidibrahimov/"
+    icon: "linkedin"
+  - name: "Shovkat  Zeynalli"
+    major: "Computer Science"
+    school: "Mississippi Valley State University"
+    schoolurl: "https://www.mvsu.edu/"
+    social: "https://www.linkedin.com/in/%C5%9F%C3%B6vk%C9%99t-zeynall%C4%B1-71aa1a177"
+    icon: "linkedin"
+  - name: "Craig Edelin Jr"
+    major: "Computer Science"
+    school: "Morehouse College"
+    schoolurl: "https://morehouse.edu/"
+    social: "https://www.linkedin.com/in/craig-edelin-jr-043338204/"
+    icon: "linkedin"
+  - name: "Zachare Lofton"
+    major: "Computer Science"
+    school: "Morehouse College"
+    schoolurl: "https://morehouse.edu/"
+    social: "http://linkedin.com/in/zachare-lofton1997/"
+    icon: "linkedin"
+  - name: "Eyad Kathir"
+    major: "Cyber Security"
+    school: "Winston Salem State University"
+    schoolurl: "https://www.wssu.edu/"
+    social: "http://www.linkedin.com/in/eyad-kathir-559223a1"
+    icon: "linkedin"
+
+
+- teamname: "Jazz Frogs"
+  mentor: ["Quynhmai Tran", "Annaclaire Kepple", "Omar Ocasio"]
+  members:
+  - name: "Alex Gutierrez"
+    major: "Mathematics"
+    school: "California State University Los Angeles"
+    schoolurl: "https://www.calstatela.edu/"
+    social: "https://www.linkedin.com/in/alex-gutierrez-diaz-80a7bb242"
+    icon: "linkedin"
+  - name: "Vladimir Deriglazov"
+    major: "Computer Science"
+    school: "Elizabeth City State University"
+    schoolurl: "https://www.ecsu.edu/"
+    social: "http://www.linkedin.com/in/vladimir-deriglazov"
+    icon: "linkedin"
+  - name: "Stephen Pearsall"
+    major: "Computer Science"
+    school: "Elizabeth City State University"
+    schoolurl: "https://www.ecsu.edu/"
+    social: "http://linkedin.com/in/stephen-pearsall-aa0826231"
+    icon: "linkedin"
+  - name: "Jonathan Sasser"
+    major: "Computer Science"
+    school: "Elizabeth City State University"
+    schoolurl: "https://www.ecsu.edu/"
+    social: "https://www.linkedin.com/in/jonathan-sasser-6b5972253/"
+    icon: "linkedin"
+ 
+
+- teamname: "Mr.Roger’s - 20 Min Neighborhoods"
+  mentor: ["Edgar Garza", "Pat Scherer", "Adonay Sissay"]
+  members:
+  - name: "Marie Michelle Ishimwe"
+    major: "Computer Science"
+    school: "Methodist University"
+    schoolurl: "https://www.methodist.edu/"
+    social: "http://www.linkedin.com/in/mariemichelle2000"
+    icon: "linkedin"
+  - name: "Kevin Chen"
+    major: "Computer Science"
+    school: "University of Maryland, Baltimore County"
+    schoolurl: "https://umbc.edu/"
+    social: "https://www.linkedin.com/in/kchen1314/"
+    icon: "linkedin"
+  - name: "Carlos Iglesias"
+    major: "Computer Science and Engineering"
+    school: "University of Puerto Rico in Mayaguez"
+    schoolurl: "https://www.uprm.edu/ecafss/collaborators/uprm/"
+    social: "https://www.linkedin.com/in/carlos-a-iglesias-ng-7001061b7"
+    icon: "linkedin"
+
+
+- teamname: "Sonar Skills"
+  mentor: ["La Tasha Roberts", "Andrianina Raharijao", "Geoffrey Reid"]
+  members:
+  - name: "John Cabrera"
+    major: "Computer Science"
+    school: "CUNY Lehman College"
+    schoolurl: "https://www.lehman.cuny.edu/"
+    social: "https://www.linkedin.com/in/john-cabrera-7972201bb/"
+    icon: "linkedin"
+  - name: "Tahmuras Pirimov"
+    major: "Computer Science"
+    school: "Methodist University"
+    schoolurl: "https://www.methodist.edu/"
+    social: "https://www.linkedin.com/in/tahmuras-pirimov"
+    icon: "linkedin"
+  - name: "Jonathan Kurtz"
+    major: "Computer Science"
+    #school: ""
+    #schoolurl: ""
+    social: "https://www.linkedin.com/in/jonathan-kurtz-14b50a185"
+    icon: "linkedin"
+
+
+- teamname: "Team Genie"
+  mentor: ["Cole McKnight", ]
+  members:
+  - name: "Ibrahim Oluwajoba Adisa"
+    #major: ""
+    school: "Clemson University"
+    schoolurl: "http://www.clemson.edu/"
+    social: "https://www.linkedin.com/in/oluwajobaa"
+    icon: "linkedin"
+  - name: "Hunter Marquette"
+    major: "Computer Science"
+    school: "Elizabeth City State University"
+    schoolurl: "https://www.ecsu.edu/"
+    social: "https://www.linkedin.com/in/hunter-marquette-4a28a1161/"
+    icon: "linkedin"
+
+
 #  schools: 
 #  - name: Winston-Salem State University
 #    logo: "/assets/img/logos/schools/wssu.png"
