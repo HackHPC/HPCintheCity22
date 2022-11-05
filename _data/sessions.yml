@@ -155,9 +155,9 @@ sessions:
   #youtube:
   #- name: 
   #  link: 
-  #files:
-  #- filename: 
-  #  location:
+  files:
+  - filename: Team Introduction Slide Deck 
+    location: "/assets/slides/Team-Introduction-Slides.pdf"
   #url:
   #- name: 
   #  url
@@ -177,9 +177,9 @@ sessions:
   #youtube:
   #- name: 
   #  link: 
-  #files:
-  #- filename: 
-  #  location:
+  files:
+  - filename: Team Goals Slide Deck
+    location: "/assets/slides/Team-Goals-Slides.pdf"
   #url:
   #- name: 
   #  url
