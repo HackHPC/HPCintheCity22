@@ -11,23 +11,28 @@
                 <h1 id="{{ team.teamname }}">{{ team.teamname }}</h1>
                 </td>
                 <td>
+                    <!--
                 {% for school in team.schools %}    
                 <a href="{{ school.url }}" target="_blank"><img src="{{ school.logo | prepend: site.baseurl }}" alt="{{ school.name }}" width="200px" style="float:right;"></a>
                 &nbsp;&nbsp;
                 {% endfor %}
+                    -->
                 </td>
                 
             </tr>
             <tr style="border-bottom: 2px solid black;">
                 <td style="width: 40%; ">
                         
-                            <h3>Members:</h3>
-                            <b>Team Mentor:</b><br> {{ team.mentor }}
-                                {% for ment in site.data.sessions.mentors %}
-                                    {% if ment.name == team.mentor %}
+                            <h3>Mentors:</h3>
+                            {% for mentor in team.mentor %}
+                                {% for ment in site.data.sessions.mentors %} 
+                                    {% if ment.name == mentor %}
+                                    <b>Team {{ ment.role }}: </b> {{ ment.name}}
+                                    {% if ment.social %}
                                     [ {% for entry in ment.social %}
                                     <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
                                     {% endfor %} ] <br>
+                                    {% endif %}
                                        <a href="{{ ment.url }}" target="_blank"><em>{{ ment.position }}</em></a>
                                     {% endif %}
                                 {% endfor %}
@@ -39,22 +44,19 @@
                                      <a href="{{ ment.url }}" target="_blank"><em>{{ ment.position }}</em></a>
                                     {% endif %}
                                 {% endfor %}
-                            <br> <br>
-                            <b>Faculty Members:</b><br>
+                            <br> 
+                            {% endfor %}
+                            <br>
+                            <b>Hackers:</b><br>
                             <ul>
                                 {% for member in team.members %}
-                                <li>{{ member }}</li>
+                                <li>{{ member.name }} - {% if member.social %}<a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a> {% endif %}
+                                    {% if member.school %} <a href="{{member.schoolurl}}" target="_blank">{{ member.school }}</a> {% endif %} {% if member.major %}<em>[{{ member.major }}]</em>{% endif%}
+                                
+                                </li>
                                 {% endfor %}
                             </ul>
                             <br>
-                            <h3>Target Course(s):</h3>
-                            {% for course in team.targetcourses %}
-                                <ul>
-                                    <li> {{ course.name }} {% if course.number %} ({{ course.coursenumber }}) {% endif %}</li>
-                                </ul>
-                            {% else %}
-                                <em>In Progress</em>
-                            {% endfor %}
 
                             <h3>Goals:</h3>
                             {% for sessiongoals in team.goals %}
@@ -81,9 +83,6 @@
                                 {% if team.themesongname %}
                                 <li>Theme Song: <a href="{{ team.themesongurl }}">{{ team.themesongname }} </a></li> 
                                 {% endif %} 
-                                {% if team.teamintropdf %}
-                                <li>Team Introduction Slide: <a href="{{ team.teamintropdf | prepend: site.baseurl }}">[PDF]</a></li> 
-                                {% endif %} 
                                 
                                 {% if team.files %}
                                     {% for file in team.files %}
@@ -91,9 +90,6 @@
                                     {% endfor %}
                                 {% endif %}
                                 
-                                {% if team.poster %}
-                                <li>Poster: <a href="{{ team.poster | prepend: site.baseurl }}">[PDF]</a></li> 
-                                {% endif %}
                                 {% if team.github %}
                                 <li>Github Repository: <a href="{{ team.github }}">[Link]</a></li> 
                                 {% endif %}

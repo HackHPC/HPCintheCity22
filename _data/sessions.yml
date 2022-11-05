@@ -320,10 +320,6 @@ presenters:
     url: mailto:mfratkin@tacc.utexas.edu
   - title: linkedin
     url: https://www.linkedin.com/in/melyssa-fratkin
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
   - title: link
     url: https://www.tacc.utexas.edu/about/directory/melyssa-fratkin
 
@@ -340,16 +336,14 @@ mentors:
   title: Director, Training And Professional Development
   url: https://www.tacc.utexas.edu/
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:charlie@tacc.utexas.edu"
-    - title: linkedin
-      url: https://www.linkedin.com/in/charlie-dey-0031317a/
-    - title: twitter
-      url: https://twitter.com/DeyCharlie
-#    #- title: github
-#    #  url: 
-    - title: link
-      url: https://www.tacc.utexas.edu/about/directory/charlie-dey
+  - title: envelope #use for email address
+    url: "mailto:charlie@tacc.utexas.edu"
+  - title: linkedin
+    url: https://www.linkedin.com/in/charlie-dey-0031317a/
+  - title: twitter
+    url: https://twitter.com/DeyCharlie
+  - title: link
+    url: https://www.tacc.utexas.edu/about/directory/charlie-dey
 
 - name: "Cole McKnight"
   position: "Omnibond"
@@ -358,35 +352,21 @@ mentors:
   role: "Mentor" 
   url: http://omnibond.com/
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:cole@omnibond.com"
-#    #- title: linkedin
-#    #  url: https://www.linkedin.com/in/adonay-sissay-57197a34/
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: link
-      url: http://cloudycluster.com
-#
+  - title: envelope #use for email address
+    url: "mailto:cole@omnibond.com"
+  - title: link
+    url: http://cloudycluster.com
 
 - name: "Andrianina Raharijao"
   position: "CUNY Lehman College"
-  #title:
   team: "Sonar Skills"
   role: "Co-Mentor" 
   url: "https://www.lehman.cuny.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:raharijaoandrianina@gmail.com"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/andrianina-raharijao/"
+  - title: envelope #use for email address
+    url: "mailto:raharijaoandrianina@gmail.com"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/andrianina-raharijao/"
 #
 
 - name: "Omar Ocasio"
@@ -396,16 +376,10 @@ mentors:
   role: "Co-Mentor" 
   url: "https://www.inter.edu/department/bayamon/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:omancasio@gmail.com"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/omar-ocasio-b6768a212"
+  - title: envelope #use for email address
+    url: "mailto:omancasio@gmail.com"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/omar-ocasio-b6768a212"
 #
 
 - name: "Trent Gaylord"
@@ -415,54 +389,34 @@ mentors:
   role: "Co-Mentor" 
   url: "https://morehouse.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:tgaylord2024@gmail.com"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/trent-gaylord-2024/"
+  - title: envelope #use for email address
+    url: "mailto:tgaylord2024@gmail.com"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/trent-gaylord-2024/"
 #
 
 - name: "Adonay Sissay"
   position: "Northwestern State University"
-  #title:
   team: "Mr.Roger’s - 20 Min Neighborhoods"
   role: "Co-Mentor" 
   url: "https://www.nsula.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:sissaya@nsula.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: link
-      url: "https://my.nsula.edu/my/mobile/faculty/facprofile.php?fid=sissaya"
+  - title: envelope #use for email address
+    url: "mailto:sissaya@nsula.edu"
+  - title: link
+    url: "https://my.nsula.edu/my/mobile/faculty/facprofile.php?fid=sissaya"
 #
 
 - name: "La Tasha Roberts"
   position: "Austin Community College"
-  #title:
   team: "Sonar Skills"
   role: "Mentor" 
   url: "https://www.austincc.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:lrobert2@austincc.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/la-tasha-roberts-3a3b1533/"
+  - title: envelope #use for email address
+    url: "mailto:lrobert2@austincc.edu"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/la-tasha-roberts-3a3b1533/"
 #
 
 - name: "Josselyn Salgado"
@@ -472,16 +426,10 @@ mentors:
   role: "Student Mentor" 
   url: "https://sciencegateways.org/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:josselyns45@gmail.com"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/josselynsalgado"
+  - title: envelope #use for email address
+    url: "mailto:josselyns45@gmail.com"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/josselynsalgado"
 #
 
 - name: "William Mobley"
@@ -491,16 +439,10 @@ mentors:
   role: "Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:wmobley@tacc.utexas.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/william-mobley-0b716654/"
+  - title: envelope #use for email address
+    url: "mailto:wmobley@tacc.utexas.edu"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/william-mobley-0b716654/"
 #
 
 - name: "Alfred Watkins"
@@ -510,16 +452,10 @@ mentors:
   role: "Co-Mentor" 
   url: "https://morehouse.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:alfred.watkins@morehouse.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/alfred-watkins-85890b5/"
+  - title: envelope #use for email address
+    url: "mailto:alfred.watkins@morehouse.edu"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/alfred-watkins-85890b5/"
 #
 
 
@@ -530,16 +466,10 @@ mentors:
   role: "Technical Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:egarza@tacc.utexas.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/edgargarza7/"
+  - title: envelope #use for email address
+    url: "mailto:egarza@tacc.utexas.edu"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/edgargarza7/"
 #
 
 - name: "Pat Scherer"
@@ -549,16 +479,10 @@ mentors:
   role: "Technical Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:pscherer@tacc.utexas.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/patscherer/"
+  - title: envelope #use for email address
+    url: "mailto:pscherer@tacc.utexas.edu"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/patscherer/"
 #
 
 - name: "Geoffrey Reid"
@@ -568,16 +492,10 @@ mentors:
   role: "Co-Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:greid@tacc.utexas.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "http://linkedin.com/in/gdreid"
+  - title: envelope #use for email address
+    url: "mailto:greid@tacc.utexas.edu"
+  - title: linkedin
+    url: "http://linkedin.com/in/gdreid"
 #
 
 - name: "Quynhmai Tran"
@@ -587,16 +505,10 @@ mentors:
   role: "Student Mentor" 
   url: "https://www.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:quynhmai.tran11@gmail.com"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/quynhmaintran/"
+  - title: envelope #use for email address
+    url: "mailto:quynhmai.tran11@gmail.com"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/quynhmaintran/"
 #
 
 
@@ -607,16 +519,10 @@ mentors:
   role: "Student Mentor" 
   url: "https://www.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:anna.mkepple@utexas.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "http://www.linkedin.com/in/Annaclaire-Kepple"
+  - title: envelope #use for email address
+    url: "mailto:anna.mkepple@utexas.edu"
+  - title: linkedin
+    url: "http://www.linkedin.com/in/Annaclaire-Kepple"
 #
 
 - name: "Munene Kanampiu"
@@ -626,16 +532,10 @@ mentors:
   role: "Mentor" 
   url: "https://www.wssu.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:kanampiumw@wssu.edu"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "https://www.linkedin.com/in/munene-kanampiu-4973752a/"
+  - title: envelope #use for email address
+    url: "mailto:kanampiumw@wssu.edu" 
+  - title: linkedin
+    url: "https://www.linkedin.com/in/munene-kanampiu-4973752a/"
 #
 
 - name: "Hector Santiago"
@@ -645,16 +545,10 @@ mentors:
   role: "Student Mentor" 
   url: "https://www.wssu.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-    - title: envelope #use for email address
-      url: "mailto:hector.santiagomarti@gmail.com"
-#    #- title: linkedin
-#    #  url: 
-#    #- title: twitter
-#    #  url: 
-#    #- title: github
-#    #  url: 
-    - title: linkedin
-      url: "http://www.linkedin.com/in/hmsiii"
+  - title: envelope #use for email address
+    url: "mailto:hector.santiagomarti@gmail.com"
+  - title: linkedin
+    url: "http://www.linkedin.com/in/hmsiii"
 #
 
 
@@ -697,7 +591,7 @@ mentors:
 
 teams:
 - teamname: "EcoLocation"
-  mentor: "William Mobley"
+  mentor: ["William Mobley"]
   comentor: "Alfred Watkins"
   #staff: ""
   members:
@@ -706,7 +600,7 @@ teams:
     school: "Morehouse College"
     schoolurl: "https://morehouse.edu/"
     social: "https://www.linkedin.com/in/khadar-coleman-983a19247/"
-  icon: "linkedin"
+    icon: "linkedin"
   - name: "Alfred Watkins"
     major: ""
     school: "Morehouse College"
@@ -719,6 +613,18 @@ teams:
     schoolurl: "https://www.utexas.edu/"
     social: "http://linkedin.com/in/govnor-payne-29090814b"
     icon: "linkedin"
+  # themesongname: 
+  # themesongurl: 
+  # teamintroimg:  
+  # goals:
+  # - sessionname: ""
+  #   goals: [ ]
+  # github:
+  # files:
+  # - filename: """
+  #   filelink: ""
+  #   filetype: ""
+
 
 
 - teamname: "Emote-ping"
@@ -832,7 +738,7 @@ teams:
 
 
 - teamname: "Team Genie"
-  mentor: ["Cole McKnight", ]
+  mentor: ["Cole McKnight"]
   members:
   - name: "Ibrahim Oluwajoba Adisa"
     #major: ""
