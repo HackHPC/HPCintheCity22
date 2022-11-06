@@ -2,8 +2,23 @@
 layout: index
 title: Home
 permalink: /
----
+carousel:
+- grouppicture.gif
+- 1dayprogress.png
+- melyssa.png
+- cloudyclusteroverview.png
+- kickoff-pingaway.png
+- team-intros.png
+- intro-20min.png
+- genie-1.png
+- genie-2.png
 
+
+---
+<br>
+<div>
+{% include carousel.html %}
+</div>
 
 <div id="service">
     <div class="container">
@@ -46,6 +61,28 @@ permalink: /
                     <li><strong>Local/Federal/National Agencies</strong></li>
                 </ul>
                 
+
+<div id="portfoliowrap centered" style="width: 70%; margin: auto;">
+    <div class="portfolio-centered">
+        <h2>The Teams:</h2>
+        <br>
+        <div class="recentitems portfolio">   
+            <div class="hline"></div>
+            {% for team in site.data.sessions.teams %}
+            <div class="portfolio-item graphic-design" >
+                <div class="he-wrap tpl6" style="align-items: center; text-align: center;">
+                    <a href="{{ site.baseurl }}/teams/#{{ team.teamname }}"><img src="{{ team.teamintroimg | prepend:site.baseurl }}" width="300px" style="border: 4px solid #384452;"></a>
+            <a href="{{ site.baseurl }}/teams/#{{ team.teamname }}" style="color: #384452;"><h4>{{ team.teamname }}</h4></a>
+           
+
+                </div></div>
+            {% endfor %}
+
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->
+
+
                 <u>Roles include:</u>
                    <ul>
                         <li><strong>Participants/Hackers</strong> - Students</li>

@@ -62,7 +62,7 @@ registrationform: 'https://forms.gle/vu7TmXxy9uv66Lfw7'
 # Members information. Shown on About page.
 members:
   - name: Amy Cannon
-    position: Omnibond
+    position: Omnibond Systems
     url: http://www.omnibond.com
     text: >
       Amy Cannon has worked at Omnibond for 10 years, where her Business Development
@@ -141,7 +141,7 @@ members:
         url: https://github.com/jeaimehp
 
   - name: Boyd Wilson
-    position: Omnibond
+    position: Omnibond Systems
     title: Technologist and product focused executive
     url: http://www.omnibond.com
     text: >
@@ -167,7 +167,7 @@ members:
         url: https://github.com/omnibond/
 
   - name: Josh Kissel
-    position: Omnibond
+    position: Omnibond Systems
     url: http://www.omnibond.com
     text: >
       Josh has worked at Omnibond for the past two years and helps with Hackathon website
@@ -180,6 +180,27 @@ members:
         url: mailto:josh@trafficvision.com
       - title: linkedin
         url: https://www.linkedin.com/in/josh-kissel-201a4895/
+  
+  - name: "Charlie Dey"
+    position: "Texas Advanced Computing Center"
+    url: https://www.tacc.utexas.edu/
+    text: >
+      Charlie is the Director of Training and Professional Development with the User Services 
+      group at TACC with a background in web development and scientific computing. Charlie's 
+      responsibilities at TACC include organizing, developing content, and building 
+      curriculums for TACC's academic course selection taught in conjunction with several
+       departments at the University of Texas at Austin, as well as for TACC's professional 
+       development and educational training. 
+    img: charlie-dey.jpeg
+    social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+    - title: envelope #use for email address
+      url: "mailto:charlie@tacc.utexas.edu"
+    - title: linkedin
+      url: https://www.linkedin.com/in/charlie-dey-0031317a/
+    - title: twitter
+      url: https://twitter.com/DeyCharlie
+    - title: link
+      url: https://www.tacc.utexas.edu/about/directory/charlie-dey
 
 # Clients information. Shown on Home and About pages.
 clients:
