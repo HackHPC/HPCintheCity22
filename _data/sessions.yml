@@ -769,8 +769,15 @@ teams:
   themesongname: "The Beatles - Yellow Submarine"
   themesongurl: "https://youtu.be/m2uTFF_3MaA"
   # teamintroimg: 
-  mentor: ["La Tasha Roberts", "Andrianina Raharijao", "Geoffrey Reid"]
+  mentor: ["La Tasha Roberts", "Geoffrey Reid"]
   members:
+  - name: "Andrianina Raharijao"
+    major: "Computer Science"
+    school: "CUNY Lehman College"
+    schoolurl: "https://www.lehman.cuny.edu/"
+    social: "https://www.linkedin.com/in/andrianina-raharijao/"
+    icon: "linkedin"
+
   - name: "John Cabrera"
     major: "Computer Science"
     school: "CUNY Lehman College"
