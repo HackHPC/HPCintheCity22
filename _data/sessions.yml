@@ -593,8 +593,7 @@ mentors:
 
 teams:
 - teamname: "EcoLocation"
-  mentor: ["William Mobley"]
-  comentor: "Alfred Watkins"
+  mentor: ["William Mobley", "Alfred Watkins"]
   # github:
   themesongname: "大切ナ時間"
   themesongurl: "https://www.youtube.com/watch?v=9JYjv3u04NE"
@@ -606,21 +605,15 @@ teams:
     schoolurl: "https://morehouse.edu/"
     social: "https://www.linkedin.com/in/khadar-coleman-983a19247/"
     icon: "linkedin"
-  - name: "Alfred Watkins"
-    major: ""
-    school: "Morehouse College"
-    schoolurl: "https://morehouse.edu/"
-    social: "https://www.linkedin.com/in/alfred-watkins-85890b5/"
-    icon: "linkedin"
   - name: "Govnor Payne"
     major: "Computer Science"
     school: "University of Texas at Austin"
     schoolurl: "https://www.utexas.edu/"
     social: "http://linkedin.com/in/govnor-payne-29090814b"
     icon: "linkedin" 
-    goals:
-    - sessionname: "Checkin #1 [Friday Morning]"
-      goals: ["Create a website that directly connects organizations with the workforce they’re looking to fund." ]
+  goals:
+  - sessionname: "Checkin #1 [Friday Morning]"
+    goals: ["Create a website that directly connects organizations with the workforce they’re looking to fund." ]
   # github:
   files:
   - filename: "Team Introduction"
