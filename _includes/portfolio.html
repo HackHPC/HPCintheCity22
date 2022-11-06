@@ -27,7 +27,7 @@
                             {% for mentor in team.mentor %}
                                 {% for ment in site.data.sessions.mentors %} 
                                     {% if ment.name == mentor %}
-                                    <b>Team {{ ment.role }}: </b> {{ ment.name}}
+                                    <b>{{ ment.role }}: </b> {{ ment.name}}
                                     {% if ment.social %}
                                     [ {% for entry in ment.social %}
                                     <a href="{{ entry.url }}"><i class="fa fa-{{ entry.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i></a>
@@ -81,17 +81,17 @@
                             <h3>Links:</h3>
                             <ul>
                                 {% if team.themesongname %}
-                                <li>Theme Song: <a href="{{ team.themesongurl }}">{{ team.themesongname }} </a></li> 
+                                <li><i class="fa fa-music" style="color: black; font-size: 14px; padding: 2px; margin: 0px;"></i>  Theme Song: <a href="{{ team.themesongurl }}">{{ team.themesongname }}</a></li> 
                                 {% endif %} 
                                 
                                 {% if team.files %}
                                     {% for file in team.files %}
-                                    <li>{{ file.filename }}: <a href="{{ file.filelink | prepend: site.baseurl }}">[{{ file.filetype }}]</a></li> 
+                                    <li><i class="fa fa-file" style="color: black; font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }}: <a href="{{ file.filelink | prepend: site.baseurl }}">[{{ file.filetype }}]</a></li> 
                                     {% endfor %}
                                 {% endif %}
                                 
                                 {% if team.github %}
-                                <li>Github Repository: <a href="{{ team.github }}">[Link]</a></li> 
+                                <li><i class="fa fa-github" style="color:black; font-size: 14px; padding: 2px; margin: 0px;"></i> Github Repository: <a href="{{ team.github }}">[Link] </a></li> 
                                 {% endif %}
 
                             </ul>
@@ -109,11 +109,19 @@
                                 <h3 style="color: #fea500">&#127942; {{ award }}</h3>
                             {% endfor %}
                             <br>
+                    
                         {% endif %}
-
                             {% if team.teamintroimg %}
                                 <a href="{{ team.teamintropdf | prepend: site.baseurl }}"><img src="{{ team.teamintroimg | prepend:site.baseurl }}"></a>
+                                <br>
+                                {% endif %}
+                            {% if team.images %}
+                            {% for img in team.images %}
+                            <br>
+                                <img src="{{ img.image | prepend:site.baseurl }}"></a>
+                            {% endfor %}
                             {% endif %}
+                           
 
                         </td>
             </tr>

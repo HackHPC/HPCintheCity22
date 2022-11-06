@@ -400,7 +400,7 @@ mentors:
 - name: "Adonay Sissay"
   position: "Northwestern State University"
   team: "Mr.Roger’s - 20 Min Neighborhoods"
-  role: "Co-Mentor" 
+  role: "Technical Mentor" 
   url: "https://www.nsula.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
   - title: envelope #use for email address
@@ -465,7 +465,7 @@ mentors:
   position: "Texas Advanced Computing Center (TACC)"
   #title:
   team: "Mr.Roger’s - 20 Min Neighborhoods"
-  role: "Technical Mentor" 
+  role: "Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
   - title: envelope #use for email address
@@ -478,7 +478,7 @@ mentors:
   position: "Texas Advanced Computing Center (TACC)"
   #title:
   team: "Mr.Roger’s - 20 Min Neighborhoods"
-  role: "Technical Mentor" 
+  role: "Co-Mentor" 
   url: "https://www.tacc.utexas.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
   - title: envelope #use for email address
@@ -598,7 +598,7 @@ teams:
   # github:
   themesongname: "大切ナ時間"
   themesongurl: "https://www.youtube.com/watch?v=9JYjv3u04NE"
-  # teamintroimg: 
+  teamintroimg: "/assets/teams/EcoLocation/EcoLocation-Team-Introduction-Slides-500px.png"
   members:
   - name: "Khadar Coleman"
     major: "Computer Science"
@@ -617,18 +617,17 @@ teams:
     school: "University of Texas at Austin"
     schoolurl: "https://www.utexas.edu/"
     social: "http://linkedin.com/in/govnor-payne-29090814b"
-    icon: "linkedin"
-  # themesongname: 
-  # themesongurl: 
-  # teamintroimg:  
-  # goals:
-  # - sessionname: ""
-  #   goals: [ ]
+    icon: "linkedin" 
+    goals:
+    - sessionname: "Checkin #1 [Friday Morning]"
+      goals: ["Create a website that directly connects organizations with the workforce they’re looking to fund." ]
   # github:
-  # files:
-  # - filename: """
-  #   filelink: ""
-  #   filetype: ""
+  files:
+  - filename: "Team Introduction"
+    filelink: "/assets/teams/EcoLocation/EcoLocation-Team-Introduction-Slides.pdf"
+    filetype: "PDF"
+  images:
+  - image: "/assets/teams/EcoLocation/EcoLocation-Team-Introduction-Slides-500px.png"
 
 
 
@@ -673,6 +672,9 @@ teams:
     schoolurl: "https://www.wssu.edu/"
     social: "http://www.linkedin.com/in/eyad-kathir-559223a1"
     icon: "linkedin"
+  goals:
+    - sessionname: "Checkin #1 [Friday Morning]"
+      goals: ["Figure out how to determine and differentiate between emotions based on bodily functions." ]
   
 
 - teamname: "Jazz Frogs"
@@ -706,9 +708,12 @@ teams:
     schoolurl: "https://www.ecsu.edu/"
     social: "https://www.linkedin.com/in/jonathan-sasser-6b5972253/"
     icon: "linkedin"
+  goals:
+    - sessionname: "Checkin #1 [Friday Morning]"
+      goals: ["Create an online dashboard to visualize data collected at the two sensor locations. "]
  
 
-- teamname: "Mr.Roger’s - 20 Min Neighborhoods"
+- teamname: "Mr. Roger’s - 20 Min Neighborhoods"
   # github:
   themesongname: "Thundercat - 'Them Changes"
   themesongurl: "https://www.youtube.com/watch?v=GNCd_ERZvZM"
@@ -733,9 +738,13 @@ teams:
     schoolurl: "https://www.uprm.edu/ecafss/collaborators/uprm/"
     social: "https://www.linkedin.com/in/carlos-a-iglesias-ng-7001061b7"
     icon: "linkedin"
+  goals:
+    - sessionname: "Checkin #1 [Friday Morning]"
+      goals: ["Develop a python program that will generate a list of Locations within 20 minutes of an Address"]
 
 
 - teamname: "Sonar Skills"
+  teamawards: ["Best Team Introduction"]
   # github:
   themesongname: "The Beatles - Yellow Submarine"
   themesongurl: "https://youtu.be/m2uTFF_3MaA"
@@ -760,6 +769,9 @@ teams:
     #schoolurl: ""
     social: "https://www.linkedin.com/in/jonathan-kurtz-14b50a185"
     icon: "linkedin"
+  goals:
+    - sessionname: "Checkin #1 [Friday Morning]"
+      goals: ["Make observations from our data set. "]
 
 
 - teamname: "Team Genie"
@@ -781,6 +793,9 @@ teams:
     schoolurl: "https://www.ecsu.edu/"
     social: "https://www.linkedin.com/in/hunter-marquette-4a28a1161/"
     icon: "linkedin"
+  goals:
+    - sessionname: "Checkin #1 [Friday Morning]"
+      goals: ["To design a LAMMPS Granular Chute Simulation showing grains flowing into a grain silo."]
 
 
 #  schools: 
