@@ -595,7 +595,10 @@ teams:
 - teamname: "EcoLocation"
   mentor: ["William Mobley"]
   comentor: "Alfred Watkins"
-  #staff: ""
+  # github:
+  themesongname: "大切ナ時間"
+  themesongurl: "https://www.youtube.com/watch?v=9JYjv3u04NE"
+  # teamintroimg: 
   members:
   - name: "Khadar Coleman"
     major: "Computer Science"
@@ -630,6 +633,14 @@ teams:
 
 
 - teamname: "Emote-ping"
+  github: "https://github.com/emote-ping"
+  themesongname: "Pharrell Williams - Happy (from Despicable Me 2)"
+  themesongurl: "https://www.youtube.com/watch?v=C7dPqrmDWxs"
+  # teamintroimg:  
+  # files:
+  # - filename: """
+  #   filelink: ""
+  #   filetype: ""
   mentor: ["Josselyn Salgado", "Trent Gaylord", "Munene Kanampiu"]
   members:
   - name: "Javid Ibrahimov"
@@ -662,9 +673,13 @@ teams:
     schoolurl: "https://www.wssu.edu/"
     social: "http://www.linkedin.com/in/eyad-kathir-559223a1"
     icon: "linkedin"
-
+  
 
 - teamname: "Jazz Frogs"
+  # github:
+  themesongname: "Careless Whisper - saxophone cover 2021 - Manu López"
+  themesongurl: https://www.youtube.com/watch?v=iZcWtrE33FI
+  # teamintroimg:  
   mentor: ["Quynhmai Tran", "Annaclaire Kepple", "Omar Ocasio"]
   members:
   - name: "Alex Gutierrez"
@@ -694,6 +709,10 @@ teams:
  
 
 - teamname: "Mr.Roger’s - 20 Min Neighborhoods"
+  # github:
+  themesongname: "Thundercat - 'Them Changes"
+  themesongurl: "https://www.youtube.com/watch?v=GNCd_ERZvZM"
+  # teamintroimg:  
   mentor: ["Edgar Garza", "Pat Scherer", "Adonay Sissay"]
   members:
   - name: "Marie Michelle Ishimwe"
@@ -717,6 +736,10 @@ teams:
 
 
 - teamname: "Sonar Skills"
+  # github:
+  themesongname: "The Beatles - Yellow Submarine"
+  themesongurl: "https://youtu.be/m2uTFF_3MaA"
+  # teamintroimg: 
   mentor: ["La Tasha Roberts", "Andrianina Raharijao", "Geoffrey Reid"]
   members:
   - name: "John Cabrera"
@@ -740,6 +763,10 @@ teams:
 
 
 - teamname: "Team Genie"
+  # github:
+  themesongname: "Will Smith - Friend Like Me (from Aladdin)"
+  themesongurl: "https://www.youtube.com/watch?v=1at7kKzBYxI&t=101s"
+  # teamintroimg: 
   mentor: ["Cole McKnight"]
   members:
   - name: "Ibrahim Oluwajoba Adisa"
