@@ -812,6 +812,7 @@ teams:
 
 
 - teamname: "Team Genie"
+  teamawards: ["1-Day Project Progress Award"]
   # github:
   themesongname: "Will Smith - Friend Like Me (from Aladdin)"
   themesongurl: "https://www.youtube.com/watch?v=1at7kKzBYxI&t=101s"
