@@ -114,21 +114,6 @@
 
             <hr>
 
-            <h2>Participating Schools:</h2>
-
-            <ul>
-
-                {% for session in site.data.sessions.teams %}
-                    {% for school in session.schools %}
-                        <li><b>{{ school.name }}</b> - <a href="{{ school.url }}" target="_blank"><i class="fa fa-link" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ school.url }}</a> </li>
-                    
-                    {% endfor %}
-
-
-                {% endfor %}
-            </ul>
-
-            <hr>
             <h2>References:</h2>
             <ul>
 
