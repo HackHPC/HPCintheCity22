@@ -626,8 +626,11 @@ teams:
   - filename: "Team Introduction"
     filelink: "/assets/teams/EcoLocation/EcoLocation-Team-Introduction-Slides.pdf"
     filetype: "PDF"
+  - filename: "Team Goals"
+    filelink: "/assets/teams/EcoLocation/EcoLocation-Team-Goals-Slides.pdf"
+    filetype: "PDF"
   images:
-  - image: "/assets/teams/EcoLocation/EcoLocation-Team-Introduction-Slides-500px.png"
+  - image: "/assets/teams/EcoLocation/EcoLocation-Team-Goals-Slides-500px.png"
 
 
 
@@ -635,11 +638,6 @@ teams:
   github: "https://github.com/emote-ping"
   themesongname: "Pharrell Williams - Happy (from Despicable Me 2)"
   themesongurl: "https://www.youtube.com/watch?v=C7dPqrmDWxs"
-  # teamintroimg:  
-  # files:
-  # - filename: """
-  #   filelink: ""
-  #   filetype: ""
   mentor: ["Josselyn Salgado", "Trent Gaylord", "Munene Kanampiu"]
   members:
   - name: "Javid Ibrahimov"
@@ -675,6 +673,16 @@ teams:
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["Figure out how to determine and differentiate between emotions based on bodily functions." ]
+  files:
+  - filename: "Team Introduction"
+    filelink: "/assets/teams/Emote-ping/Emote-Ping-Team-Introduction-Slides.pdf"
+    filetype: "PDF"
+  - filename: "Team Goals"
+    filelink: "/assets/teams/Emote-ping/Emote-ping-Team-Goals-Slides.pdf"
+    filetype: "PDF"
+  teamintroimg: "/assets/teams/Emote-ping/Emote-Ping-Team-Introduction-Slides-500px.png"
+  images:
+  - image: "/assets/teams/Emote-ping/Emote-ping-Team-Goals-Slides-500px.png"
   
 
 - teamname: "Jazz Frogs"
@@ -711,6 +719,16 @@ teams:
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["Create an online dashboard to visualize data collected at the two sensor locations. "]
+  files:
+  - filename: "Team Introduction"
+    filelink: "/assets/teams/Jazz_Frogs/Jazz_Frogs-Team-Introduction-Slides.pdf"
+    filetype: "PDF"
+  - filename: "Team Goals"
+    filelink: "/assets/teams/Jazz_Frogs/Jazz_Frogs-Team-Goals-Slides.pdf"
+    filetype: "PDF"
+  teamintroimg: "/assets/teams/Jazz_Frogs/Jazz_Frogs-Team-Introduction-Slides-500px.png"
+  images:
+  - image: "/assets/teams/Jazz_Frogs/Jazz_Frogs-Team-Goals-Slides-500px.png"
  
 
 - teamname: "Mr. Roger’s - 20 Min Neighborhoods"
@@ -741,6 +759,16 @@ teams:
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["Develop a python program that will generate a list of Locations within 20 minutes of an Address"]
+  files:
+  - filename: "Team Introduction"
+    filelink: "/assets/teams/20Min_Neighborhoods/20Min_Neighborhoods-Team Introduction Slides.pdf"
+    filetype: "PDF"
+  - filename: "Team Goals"
+    filelink: "/assets/teams/20Min_Neighborhoods/20Min_Neighborhoods-Team-Goals-Slides.pdf"
+    filetype: "PDF"
+  teamintroimg: "/assets/teams/20Min_Neighborhoods/20Min_Neighborhoods-Team Introduction Slides-500px.png"
+  images:
+  - image: "/assets/teams/20Min_Neighborhoods/20Min_Neighborhoods-Team-Goals-Slides-500px.png"
 
 
 - teamname: "Sonar Skills"
@@ -772,6 +800,16 @@ teams:
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["Make observations from our data set. "]
+  files:
+  - filename: "Team Introduction"
+    filelink: "/assets/teams/Sonar_Skills/Sonar_Skills-Team-Introduction-Slides.pdf"
+    filetype: "PDF"
+  - filename: "Team Goals"
+    filelink: "/assets/teams/Sonar_Skills/Sonar_Skills-Team-Goals-Slides.pdf"
+    filetype: "PDF"
+  teamintroimg: "/assets/teams/Sonar_Skills/Sonar_Skills-Team-Introduction-Slides-500px.png"
+  images:
+  - image: "/assets/teams/Sonar_Skills/Sonar_Skills-Team-Goals-Slides-500px.png"
 
 
 - teamname: "Team Genie"
@@ -796,6 +834,16 @@ teams:
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["To design a LAMMPS Granular Chute Simulation showing grains flowing into a grain silo."]
+  files:
+  - filename: "Team Introduction"
+    filelink: "/assets/teams/Team_Genie/Team_Genie-Team-Introduction-Slides.pdf"
+    filetype: "PDF"
+  - filename: "Team Goals"
+    filelink: "/assets/teams/Team_Genie/Team_Genie-Team-Goals-Slides.pdf"
+    filetype: "PDF"
+  teamintroimg: "/assets/teams/Team_Genie/Team_Genie-Team-Introduction-Slides-500px.png"
+  images:
+  - image: "/assets/teams/Team_Genie/Team_Genie-Team-Goals-Slides-500px.png"
 
 
 #  schools: 
