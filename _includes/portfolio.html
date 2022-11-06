@@ -1,7 +1,17 @@
 <div id="service">
-
+  
+    {% include deliverables.html %}
     <div class="container mtb">
-        
+            
+    
+            <table style="width: 100%;">
+                <tr style="border-top: solid lightgrey 2px; border-bottom: solid lightgrey 2px;">
+            {% for team in site.data.sessions.teams %}
+               <td style="text-align: center;"> <h4><a href="{{ site.baseurl }}/teams/#{{ team.teamname }}">{{ team.teamname }} </a></h4></td>
+            {% endfor %}
+        </tr>
+        </table>
+            
          {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
      
             <table>
@@ -17,6 +27,18 @@
                 &nbsp;&nbsp;
                 {% endfor %}
                     -->
+                    {% if team.teamawards %}
+                    <table>
+                        <tr>
+                    {% for award in team.teamawards %} 
+                        <td style="text-align: center;"><h3 style="color: #fea500">&#127942; {{ award }}</h3></td>
+                    {% endfor %}
+                        </tr>
+                    </table>
+            
+                {% endif %}
+
+                
                 </td>
                 
             </tr>
@@ -104,13 +126,7 @@
                         <td >
                             
                             <br>
-                        {% if team.teamawards %}
-                            {% for award in team.teamawards %} 
-                                <h3 style="color: #fea500">&#127942; {{ award }}</h3>
-                            {% endfor %}
-                            <br>
-                    
-                        {% endif %}
+                       
                             {% if team.teamintroimg %}
                                 <a href="{{ team.teamintropdf | prepend: site.baseurl }}"><img src="{{ team.teamintroimg | prepend:site.baseurl }}"></a>
                                 <br>

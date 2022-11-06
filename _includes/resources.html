@@ -6,11 +6,13 @@
     <!--
     <img src="{{ "/assets/img/logos/SGCI-NSF-lfachack.png" | prepend: site.baseurl }}" width="320px" style="float: right;"/>
     -->    
+            {% include deliverables.html %}
+            <br>
             <h2>Session Videos:</h2>
             <ul>
                 {% for youtube in site.data.sessions.sessions %}
                     {% for vid in youtube.youtube %}
-                        <li><i class="fa fa-youtube" style="font-size: 14px; padding: 2px; margin: 0px;"></i><b>{{ vid.name }}</b> [{{ youtube.date }}] - <a href="{{ vid.link }}" target="_blank">{{ vid.link }}</a> </li>
+                        <li><i class="fa fa-youtube" style="color: red; font-size: 14px; padding: 2px; margin: 0px;"></i><b>{{ vid.name }}</b> [{{ youtube.date }}] - <a href="{{ vid.link }}" target="_blank">{{ vid.link }}</a> </li>
                     {% endfor %}
 
                 {% endfor %}

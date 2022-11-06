@@ -13,9 +13,11 @@
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        {% if site.registrationform %}
+        <!--        {% if site.registrationform %}
         <li style="background: orange;"><a href="{{ site.registrationform }}" target="_blank">REGISTER HERE</a></li>
         {% endif %}
+        -->
+
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         
         <li {% if page.title == "Schedule" %}class="active"{% endif %}><a href="{{"/schedule/" | prepend: site.baseurl }}">SCHEDULE</a></li>

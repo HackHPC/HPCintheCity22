@@ -219,7 +219,7 @@ sessions:
   icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Saturday_11-5_Evening_Checkin.ics"
   description: >
     [Supporter Welcome]<strong>Omnibond Systems</strong>  
-    <em>[Team Presentation]</em> Project 1-Day Progress (1-slide/1-minute)
+    <br><em>[Team Presentation]</em> Project 1-Day Progress (1-slide/1-minute)
 
   #youtube:
   #- name: 
@@ -333,22 +333,8 @@ presenters:
 ###   MENTORS
 ###############################
 mentors:
-- name: "Charlie Dey"
-  position: "Texas Advanced Computing Center"
-  title: Director, Training And Professional Development
-  url: https://www.tacc.utexas.edu/
-  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-  - title: envelope #use for email address
-    url: "mailto:charlie@tacc.utexas.edu"
-  - title: linkedin
-    url: https://www.linkedin.com/in/charlie-dey-0031317a/
-  - title: twitter
-    url: https://twitter.com/DeyCharlie
-  - title: link
-    url: https://www.tacc.utexas.edu/about/directory/charlie-dey
-
 - name: "Cole McKnight"
-  position: "Omnibond"
+  position: "Omnibond Systems"
   title: CloudyCluster Engineer
   team: "Team Genie"
   role: "Mentor" 

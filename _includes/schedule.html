@@ -1,11 +1,14 @@
-<div id="service">
 
+<div id="service">
+    {% include deliverables.html %}
     <div class="container mtb">
-    
            
                 <h3>Event Sessions</h3>
-                    <ul class="list-group">
+                <table>  
+                <ul id="sched_color" class="list-group" >
+                        
                 {% for session in site.data.sessions.sessions %}
+                <tr style="border: solid black 2px;"><td>
                 <li class="list-group-item"><mark>{% if session.date %}
                      <strong>   {{ session.date }} </strong>
                     {% endif %}
@@ -102,7 +105,7 @@
                     {% if session.youtube %}
                     <p> <b>Video Link:</b>
                         {% for vid in session.youtube %}
-                        <a href="{{ vid.link }}" target="_blank">[ <i class="fa fa-youtube" style="font-size: 14px; padding: 2px; margin: 0px;"></i> {{ vid.name }} ]</a>
+                        <a href="{{ vid.link }}" target="_blank">[ <i class="fa fa-youtube" style="color: red; font-size: 14px; padding: 2px; margin: 0px;"></i> {{ vid.name }} ]</a>
                         {% endfor %}
                     </p>
     
@@ -116,7 +119,7 @@
                      File(s): 
                         {% for file in session.files %}
     
-                            <a href="{{ file.location | prepend: site.baseurl }}">[ {{ file.filename }} ]</a>
+                            <a href="{{ file.location | prepend: site.baseurl }}">[ <i class="fa fa-file-o" style="color: black; font-size: 14px; padding: 2px; margin: 0px;"></i> {{ file.filename }} ]</a>
                         {% endfor %}
                     {% endif %}
                     {% if session.url %}
@@ -124,7 +127,7 @@
                         <em>Resource Links: </em>
                         {% for url in session.url %}
      
-                            <a href="{{ url.url }}">[ {{ url.name }} ]</a>
+                            <a href="{{ url.url }}">[ <i class="fa fa-link" style="color: black; font-size: 14px; padding: 2px; margin: 0px;"></i> {{ url.name }} ]</a>
                         {% endfor %}
                         
                     {% endif %}
@@ -132,9 +135,11 @@
                     
                     <br>
                </li>
+               
+            </td></tr>
                 {% endfor %}
                    </ul>
-    
+                   </table>
     
     </div><! --/container -->
     </div>
