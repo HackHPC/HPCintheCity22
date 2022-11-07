@@ -835,6 +835,12 @@ teams:
     schoolurl: "https://www.ecsu.edu/"
     social: "https://www.linkedin.com/in/hunter-marquette-4a28a1161/"
     icon: "linkedin"
+  - name: "Diondre Deloatch"
+    major: "Computer Science"
+    school: "Elizabeth City State University"
+    schoolurl: "https://www.ecsu.edu/"
+    social: "http://linkedin.com/in/ddeloatch"
+    icon: "linkedin"
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["To design a LAMMPS Granular Chute Simulation showing grains flowing into a grain silo."]
