@@ -298,10 +298,9 @@ sessions:
      <br>&nbsp;&nbsp;- PDF of Presentation Slides
      <br>&nbsp;&nbsp; - Source code
      <br>&nbsp;&nbsp; - README.md with Project Goals and Team Members
-    
-  #youtube:
-  #- name: 
-  #  link: 
+  youtube:
+  - name: YouTube Livestream
+    link: https://youtu.be/tZQl6zcgsZo 
   #files:
   #- filename: 
   #  location:
@@ -310,8 +309,7 @@ sessions:
     url: https://forms.gle/47YE7TmXcE8FkbCS6
   - name: Viewer’s Choice Ballot
     url: https://forms.gle/WsKvGDJerdXSACMr7 
-  - name: YouTube Livestream
-    url: https://youtu.be/tZQl6zcgsZo 
+
 
 ###############################
 ###   PRESENTERS
