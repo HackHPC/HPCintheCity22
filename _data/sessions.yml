@@ -619,6 +619,8 @@ teams:
   youtube:
   - name: Team Goals
     link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=483s"
+  - name: Team Trailer
+    link: https://youtu.be/2VMkskrxZGc
 
 
 
@@ -680,7 +682,10 @@ teams:
   youtube:
   - name: Team Goals
     link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=309s"
+  - name: Team Trailer
+    link: https://youtube.com/shorts/FlQmmBts7Ec
   
+
 
 - teamname: "Jazz Frogs"
   # github:
@@ -739,13 +744,15 @@ teams:
   youtube:
   - name: Team Goals
     link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=213s"
+  - name: Team Trailer
+    link: https://youtu.be/RIBLnTeJYCE
  
 
+
 - teamname: "Mr. Roger’s - 20 Min Neighborhoods"
-  # github:
+  github: https://github.com/Winter-1314/HackHPC-20-Min-Neighborhoods
   themesongname: "Thundercat - 'Them Changes"
   themesongurl: "https://www.youtube.com/watch?v=GNCd_ERZvZM"
-  # teamintroimg:  
   mentor: ["Edgar Garza", "Pat Scherer", "Adonay Sissay"]
   members:
   - name: "Marie Michelle Ishimwe"
@@ -782,13 +789,16 @@ teams:
   youtube:
   - name: Team Goals
     link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=59s"
+  - name: Team Trailer
+    link: https://youtu.be/KXJeITr-d7s
+
+
 
 - teamname: "Sonar Skills"
   teamawards: ["Best Team Introduction"]
   github: https://github.com/jmctheowl8/Dashborad-Project 
   themesongname: "The Beatles - Yellow Submarine"
   themesongurl: "https://youtu.be/m2uTFF_3MaA"
-  # teamintroimg: 
   mentor: ["La Tasha Roberts", Hector Santiago, "Geoffrey Reid"]
   members:
   - name: "Andrianina Raharijao"
@@ -811,8 +821,6 @@ teams:
     icon: "linkedin"
   - name: "Jonathan Kurtz"
     major: "Computer Science"
-    #school: ""
-    #schoolurl: ""
     social: "https://www.linkedin.com/in/jonathan-kurtz-14b50a185"
     icon: "linkedin"
   goals:
@@ -831,17 +839,20 @@ teams:
   youtube:
   - name: Team Goals
     link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=1277s"
+  - name: Team Trailer
+    link: https://youtube.com/shorts/3ow6STlwSdk
+
+
+
 
 - teamname: "Team Genie"
   teamawards: ["1-Day Project Progress Award"]
   github: https://github.com/hunter154321/2022HPC-Genie-LAMMPS
   themesongname: "Will Smith - Friend Like Me (from Aladdin)"
   themesongurl: "https://www.youtube.com/watch?v=1at7kKzBYxI&t=101s"
-  # teamintroimg: 
   mentor: ["Cole McKnight"]
   members:
   - name: "Ibrahim Oluwajoba Adisa"
-    #major: ""
     school: "Clemson University"
     schoolurl: "http://www.clemson.edu/"
     social: "https://www.linkedin.com/in/oluwajobaa"
@@ -874,6 +885,8 @@ teams:
   youtube:
   - name: Team Goals
     link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=803s"
+  - name: Team Trailer
+    link: https://youtu.be/AkhlxdU8Qqc
 
 
 #  schools: 
