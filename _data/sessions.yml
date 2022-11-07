@@ -371,20 +371,6 @@ mentors:
     url: "https://www.linkedin.com/in/andrianina-raharijao/"
 #
 
-- name: "Omar Ocasio"
-  position: "Interamerican University of Puerto Rico Bayamon Campus"
-  #title:
-  team: "Jazz Frogs"
-  role: "Co-Mentor" 
-  url: "https://www.inter.edu/department/bayamon/"
-  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-  - title: envelope #use for email address
-    url: "mailto:omancasio@gmail.com"
-  - title: linkedin
-    url: "https://www.linkedin.com/in/omar-ocasio-b6768a212"
-#
-
-
 - name: "Adonay Sissay"
   position: "Northwestern State University"
   team: "Mr.Roger’s - 20 Min Neighborhoods"
@@ -540,7 +526,17 @@ mentors:
   - title: linkedin
     url: "http://www.linkedin.com/in/hmsiii"
 #
-
+- name: "Sasmita Mohapatra"
+  position: "Winston-Salem State University"
+  #title:
+  team: "Jazz Frogs"
+  role: "Technical Mentor" 
+  url: "https://www.wssu.edu/"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+  - title: envelope #use for email address
+    url: "mailto:smohapatra@tacc.utexas.edu"
+  - title: linkedin
+    url: "https://www.linkedin.com/in/sasmita-mohapatra-ph-d-55a45320/"
 
 
 
@@ -676,7 +672,7 @@ teams:
   themesongname: "Careless Whisper - saxophone cover 2021 - Manu López"
   themesongurl: https://www.youtube.com/watch?v=iZcWtrE33FI
   # teamintroimg:  
-  mentor: ["Quynhmai Tran", "Annaclaire Kepple", "Omar Ocasio"]
+  mentor: ["Quynhmai Tran", "Annaclaire Kepple", "Sasmita Mohapatra"]
   members:
   - name: "Alex Gutierrez"
     major: "Mathematics"
@@ -702,6 +698,20 @@ teams:
     schoolurl: "https://www.ecsu.edu/"
     social: "https://www.linkedin.com/in/jonathan-sasser-6b5972253/"
     icon: "linkedin"
+  - name: "Omar Ocasio Ortiz"
+    major: "Interamerican University of Puerto Rico Bayamon Campus"
+    school: "Elizabeth City State University"
+    schoolurl: "https://www.ecsu.edu/"
+    social: "https://www.linkedin.com/in/omar-ocasio-b6768a212"
+    icon: "linkedin"
+  - name: "Zachary Schweibinz"
+    major: "Computer Information Technologies"
+    school: "Methodist University"
+    schoolurl: "https://www.methodist.edu/"
+    #social: "https://www.linkedin.com/in/omar-ocasio-b6768a212"
+    #icon: "linkedin"
+
+   
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["Create an online dashboard to visualize data collected at the two sensor locations. "]
