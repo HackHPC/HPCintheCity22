@@ -584,7 +584,6 @@ mentors:
 teams:
 - teamname: "EcoLocation"
   mentor: ["William Mobley", "Alfred Watkins"]
-  # github:
   themesongname: "大切ナ時間"
   themesongurl: "https://www.youtube.com/watch?v=9JYjv3u04NE"
   teamintroimg: "/assets/teams/EcoLocation/EcoLocation-Team-Introduction-Slides-500px.png"
@@ -604,7 +603,7 @@ teams:
   goals:
   - sessionname: "Checkin #1 [Friday Morning]"
     goals: ["Create a website that directly connects organizations with the workforce they’re looking to fund." ]
-  # github:
+    github: "https://github.com/ak007777/EcoLocation"
   files:
   - filename: "Team Introduction"
     filelink: "/assets/teams/EcoLocation/EcoLocation-Team-Introduction-Slides.pdf"
