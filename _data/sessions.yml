@@ -607,6 +607,9 @@ teams:
     filetype: "PDF"
   images:
   - image: "/assets/teams/EcoLocation/EcoLocation-Team-Goals-Slides-500px.png"
+  youtube:
+  - name: Team Goals
+    link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=483s"
 
 
 
@@ -665,6 +668,9 @@ teams:
   teamintroimg: "/assets/teams/Emote-ping/Emote-Ping-Team-Introduction-Slides-500px.png"
   images:
   - image: "/assets/teams/Emote-ping/Emote-ping-Team-Goals-Slides-500px.png"
+  youtube:
+  - name: Team Goals
+    link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=309s"
   
 
 - teamname: "Jazz Frogs"
@@ -708,10 +714,6 @@ teams:
     major: "Computer Information Technologies"
     school: "Methodist University"
     schoolurl: "https://www.methodist.edu/"
-    #social: "https://www.linkedin.com/in/omar-ocasio-b6768a212"
-    #icon: "linkedin"
-
-   
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["Create an online dashboard to visualize data collected at the two sensor locations. "]
@@ -725,6 +727,9 @@ teams:
   teamintroimg: "/assets/teams/Jazz_Frogs/Jazz_Frogs-Team-Introduction-Slides-500px.png"
   images:
   - image: "/assets/teams/Jazz_Frogs/Jazz_Frogs-Team-Goals-Slides-500px.png"
+  youtube:
+  - name: Team Goals
+    link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=213s"
  
 
 - teamname: "Mr. Roger’s - 20 Min Neighborhoods"
@@ -765,7 +770,9 @@ teams:
   teamintroimg: "/assets/teams/20Min_Neighborhoods/20Min_Neighborhoods-Team Introduction Slides-500px.png"
   images:
   - image: "/assets/teams/20Min_Neighborhoods/20Min_Neighborhoods-Team-Goals-Slides-500px.png"
-
+  youtube:
+  - name: Team Goals
+    link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=59s"
 
 - teamname: "Sonar Skills"
   teamawards: ["Best Team Introduction"]
@@ -781,7 +788,6 @@ teams:
     schoolurl: "https://www.lehman.cuny.edu/"
     social: "https://www.linkedin.com/in/andrianina-raharijao/"
     icon: "linkedin"
-
   - name: "John Cabrera"
     major: "Computer Science"
     school: "CUNY Lehman College"
@@ -813,7 +819,9 @@ teams:
   teamintroimg: "/assets/teams/Sonar_Skills/Sonar_Skills-Team-Introduction-Slides-500px.png"
   images:
   - image: "/assets/teams/Sonar_Skills/Sonar_Skills-Team-Goals-Slides-500px.png"
-
+  youtube:
+  - name: Team Goals
+    link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=1277s"
 
 - teamname: "Team Genie"
   teamawards: ["1-Day Project Progress Award"]
@@ -854,6 +862,9 @@ teams:
   teamintroimg: "/assets/teams/Team_Genie/Team_Genie-Team-Introduction-Slides-500px.png"
   images:
   - image: "/assets/teams/Team_Genie/Team_Genie-Team-Goals-Slides-500px.png"
+  youtube:
+  - name: Team Goals
+    link: "https://www.youtube.com/watch?v=6TQnIcOEJqU&t=803s"
 
 
 #  schools: 
