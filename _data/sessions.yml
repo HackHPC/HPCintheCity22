@@ -688,7 +688,7 @@ teams:
 
 
 - teamname: "Jazz Frogs"
-  # github:
+  github: "https://github.com/OmarOcasio20366/Bio_Sensing_Data"
   themesongname: "Careless Whisper - saxophone cover 2021 - Manu López"
   themesongurl: https://www.youtube.com/watch?v=iZcWtrE33FI
   # teamintroimg:  
