@@ -107,6 +107,14 @@
                                 <li><i class="fa fa-music" style="color: black; font-size: 14px; padding: 2px; margin: 0px;"></i>  Theme Song: <a href="{{ team.themesongurl }}">{{ team.themesongname }}</a></li> 
                                 {% endif %} 
                                 
+                                {% if team.youtube %}
+                  
+                                    {% for vid in team.youtube %}
+                                    <li><i class="fa fa-youtube" style="color: red; font-size: 14px; padding: 2px; margin: 0px;"></i><a href="{{ vid.link }}" target="_blank"> {{ vid.name }} </a></li>
+                                    {% endfor %}
+            
+                                {% endif %}
+
                                 {% if team.files %}
                                     {% for file in team.files %}
                                     <li><i class="fa fa-file" style="color: black; font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }}: <a href="{{ file.filelink | prepend: site.baseurl }}">[{{ file.filetype }}]</a></li> 
