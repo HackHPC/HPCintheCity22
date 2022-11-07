@@ -222,11 +222,11 @@ sessions:
   description: >
     [Supporter Welcome] <strong>Omnibond Systems</strong>  
     <br><em>[Team Presentation]</em> Project 1-Day Progress (1-slide/1-minute)
-
+    
   #youtube:
   #- name: 
   #  link: 
-  #files:
+   #files:
   #- filename: 
   #  location:
   #url:
@@ -247,10 +247,10 @@ sessions:
     <br> <h4 style="color: green">&#127942; Team "Team Genie" - 1-Day Project Progress Award</h4>
   #youtube:
   #- name: 
-  #  link: 
-  #files:
-  #- filename: 
-  #  location:
+  #  link:
+  files:
+  - filename: "1-Day Team Goal Slides"
+    location: "/assets/slides/Team_Sitrep_Slides.pdf" 
   #url:
   #- name: 
   #  url
