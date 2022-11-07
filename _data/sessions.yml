@@ -625,7 +625,7 @@ teams:
 
 
 - teamname: "Emote-ping"
-  github: "https://github.com/emote-ping"
+  github: "https://github.com/emote-ping/emote-ping_backend"
   themesongname: "Pharrell Williams - Happy (from Despicable Me 2)"
   themesongurl: "https://www.youtube.com/watch?v=C7dPqrmDWxs"
   mentor: ["Josselyn Salgado", "Munene Kanampiu"]
