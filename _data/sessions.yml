@@ -785,7 +785,7 @@ teams:
 
 - teamname: "Sonar Skills"
   teamawards: ["Best Team Introduction"]
-  # github:
+  github: https://github.com/jmctheowl8/Dashborad-Project 
   themesongname: "The Beatles - Yellow Submarine"
   themesongurl: "https://youtu.be/m2uTFF_3MaA"
   # teamintroimg: 
@@ -834,7 +834,7 @@ teams:
 
 - teamname: "Team Genie"
   teamawards: ["1-Day Project Progress Award"]
-  # github:
+  github: https://github.com/hunter154321/2022HPC-Genie-LAMMPS
   themesongname: "Will Smith - Friend Like Me (from Aladdin)"
   themesongurl: "https://www.youtube.com/watch?v=1at7kKzBYxI&t=101s"
   # teamintroimg: 
