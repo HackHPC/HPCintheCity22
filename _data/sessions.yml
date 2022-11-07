@@ -153,9 +153,9 @@ sessions:
      <br>&nbsp;&nbsp; - Team Theme song
      <br>&nbsp;&nbsp; - Team Virtual background
      <br> <h4 style="color: green">&#127942; Team "Sonar Skills" - Best Team Introduction Award</h4>
-  youtube: https://youtu.be/zew1BgIjBVU
-  #- name: 
-  #  link: 
+  youtube: 
+  - name: Team Introductions Video
+    link: https://youtu.be/zew1BgIjBVU
   files:
   - filename: Team Introduction Slide Deck 
     location: "/assets/slides/Team-Introduction-Slides.pdf"
@@ -175,9 +175,9 @@ sessions:
   icsfile: "/assets/ICS_files/HPC_in_the_City_Dallas_Friday_11-4_Evening_Checkin.ics"
   description: >  
     <em>[Team Presentation]</em> Project Goals (1-slide/1-minute)
-  #youtube:
-  #- name: 
-  #  link: 
+  youtube:
+  - name: Team Goals Video 
+    link: https://www.youtube.com/watch?v=6TQnIcOEJqU
   files:
   - filename: Team Goals Slide Deck
     location: "/assets/slides/Team-Goals-Slides.pdf"
