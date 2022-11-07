@@ -386,18 +386,6 @@ mentors:
     url: "https://www.linkedin.com/in/omar-ocasio-b6768a212"
 #
 
-- name: "Trent Gaylord"
-  position: "Morehouse College"
-  #title:
-  team: "Emote-ping"
-  role: "Co-Mentor" 
-  url: "https://morehouse.edu/"
-  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
-  - title: envelope #use for email address
-    url: "mailto:tgaylord2024@gmail.com"
-  - title: linkedin
-    url: "https://www.linkedin.com/in/trent-gaylord-2024/"
-#
 
 - name: "Adonay Sissay"
   position: "Northwestern State University"
@@ -533,7 +521,7 @@ mentors:
   position: "Winston-Salem State University"
   #title:
   team: "Emote-ping"
-  role: "Mentor" 
+  role: "Co-Mentor" 
   url: "https://www.wssu.edu/"
   social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
   - title: envelope #use for email address
@@ -633,7 +621,7 @@ teams:
   github: "https://github.com/emote-ping"
   themesongname: "Pharrell Williams - Happy (from Despicable Me 2)"
   themesongurl: "https://www.youtube.com/watch?v=C7dPqrmDWxs"
-  mentor: ["Josselyn Salgado", "Trent Gaylord", "Munene Kanampiu"]
+  mentor: ["Josselyn Salgado", "Munene Kanampiu"]
   members:
   - name: "Javid Ibrahimov"
     major: "Computer Science"
@@ -665,6 +653,12 @@ teams:
     schoolurl: "https://www.wssu.edu/"
     social: "http://www.linkedin.com/in/eyad-kathir-559223a1"
     icon: "linkedin"
+  - name: "Trent Gaylord"
+    major: "Computer Engineering"
+    school: "Morehouse College"
+    schoolurl: "https://morehouse.edu/"
+    icon: "linkedin"
+    social: "https://www.linkedin.com/in/trent-gaylord-2024/"
   goals:
     - sessionname: "Checkin #1 [Friday Morning]"
       goals: ["Figure out how to determine and differentiate between emotions based on bodily functions." ]
