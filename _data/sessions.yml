@@ -586,6 +586,7 @@ mentors:
 
 teams:
 - teamname: "EcoLocation"
+  teamawards: ["HPC Impact Award"]
   mentor: ["William Mobley", "Alfred Watkins"]
   themesongname: "大切ナ時間"
   themesongurl: "https://www.youtube.com/watch?v=9JYjv3u04NE"
@@ -625,6 +626,7 @@ teams:
 
 
 - teamname: "Emote-ping"
+teamawards: ["Organizer’s Award - Zachare Lofton"]
   github: "https://github.com/emote-ping/emote-ping_backend"
   themesongname: "Pharrell Williams - Happy (from Despicable Me 2)"
   themesongurl: "https://www.youtube.com/watch?v=C7dPqrmDWxs"
@@ -750,6 +752,7 @@ teams:
 
 
 - teamname: "Mr. Roger’s - 20 Min Neighborhoods"
+  teamawards: ["Viewer’s Choice Award"] 
   github: https://github.com/Winter-1314/HackHPC-20-Min-Neighborhoods
   themesongname: "Thundercat - 'Them Changes"
   themesongurl: "https://www.youtube.com/watch?v=GNCd_ERZvZM"
@@ -846,7 +849,7 @@ teams:
 
 
 - teamname: "Team Genie"
-  teamawards: ["1-Day Project Progress Award", "Best Mentor Team Trailer Award"]
+  teamawards: ["1-Day Project Progress Award", "Best Mentor Team Trailer Award", "Judges Award"]
   github: https://github.com/hunter154321/2022HPC-Genie-LAMMPS
   themesongname: "Will Smith - Friend Like Me (from Aladdin)"
   themesongurl: "https://www.youtube.com/watch?v=1at7kKzBYxI&t=101s"
