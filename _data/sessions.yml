@@ -846,7 +846,7 @@ teams:
 
 
 - teamname: "Team Genie"
-  teamawards: ["1-Day Project Progress Award"]
+  teamawards: ["1-Day Project Progress Award", "Best Mentor Team Trailer Award"]
   github: https://github.com/hunter154321/2022HPC-Genie-LAMMPS
   themesongname: "Will Smith - Friend Like Me (from Aladdin)"
   themesongurl: "https://www.youtube.com/watch?v=1at7kKzBYxI&t=101s"
