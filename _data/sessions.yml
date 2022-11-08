@@ -626,7 +626,7 @@ teams:
 
 
 - teamname: "Emote-ping"
-teamawards: ["Organizer’s Award - Zachare Lofton"]
+  teamawards: ["Organizer’s Award - Zachare Lofton"]
   github: "https://github.com/emote-ping/emote-ping_backend"
   themesongname: "Pharrell Williams - Happy (from Despicable Me 2)"
   themesongurl: "https://www.youtube.com/watch?v=C7dPqrmDWxs"
