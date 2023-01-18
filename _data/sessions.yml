@@ -226,9 +226,9 @@ sessions:
   #youtube:
   #- name: 
   #  link: 
-   #files:
-  #- filename: 
-  #  location:
+  files:
+  - filename: "1-Day Team Goal Slides"
+    location: "/assets/slides/Team_Sitrep_Slides.pdf" 
   #url:
   #- name: 
   #  url
@@ -248,9 +248,9 @@ sessions:
   #youtube:
   #- name: 
   #  link:
-  files:
-  - filename: "1-Day Team Goal Slides"
-    location: "/assets/slides/Team_Sitrep_Slides.pdf" 
+  #files:
+  #- filename: "1-Day Team Goal Slides"
+  #  location: "/assets/slides/Team_Sitrep_Slides.pdf" 
   #url:
   #- name: 
   #  url
