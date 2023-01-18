@@ -39,6 +39,10 @@
                         <li><b>{{ link.name}}</b> - <a href="{{ link.url }}" target="_blank"><i class="fa fa-link" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ link.url }}</a> </li>
                     
                     {% endfor %}
+                    {% for file in session.files %}
+                        <li> <a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }} </a> </li>
+                    {% endfor %}
+
                     </ul>
                     <br>
                     {% endif %}
