@@ -32,9 +32,10 @@
 
             <ul>
                 {% for session in site.data.sessions.sessions %}
-                    {% if session.url %}
-                    <li><em>Session: {{ session.name }}</em> [{{ session.date }}]</li>
+                <li><em>Session: {{ session.name }}</em> [{{ session.date }}]</li>
                     <ul>
+                    {% if session.url %}
+                    
                     {% for link in session.url %}
                         <li><b>{{ link.name}}</b> - <a href="{{ link.url }}" target="_blank"><i class="fa fa-link" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ link.url }}</a> </li>
                     
