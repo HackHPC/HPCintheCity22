@@ -28,7 +28,7 @@
                 {% endfor %}
             </ul>
             
-            <h2>Site Links:</h2>
+            <h2>Session Links:</h2>
 
             <ul>
                 {% for session in site.data.sessions.sessions %}
@@ -39,13 +39,23 @@
                         <li><b>{{ link.name}}</b> - <a href="{{ link.url }}" target="_blank"><i class="fa fa-link" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ link.url }}</a> </li>
                     
                     {% endfor %}
+                    {% endif %}
+
+                    {% if session.files %}
                     {% for file in session.files %}
                         <li> <a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }} </a> </li>
                     {% endfor %}
+                    {% endif %}
+                    
+                    {% if session.youtube %}
+                    {% for vid in session.youtube %}
+                        <li><i class="fa fa-youtube" style="color: red; font-size: 14px; padding: 2px; margin: 0px;"></i><b>{{ vid.name }}</b> - <a href="{{ vid.link }}" target="_blank">{{ vid.link }}</a> </li>
+                    {% endfor %}
+                    {% endif %}
+
 
                     </ul>
                     <br>
-                    {% endif %}
                 {% endfor %}
 
                
