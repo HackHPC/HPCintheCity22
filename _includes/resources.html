@@ -44,7 +44,7 @@
 
                     {% if session.files %}
                     {% for file in session.files %}
-                        <li> <a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i>{{ file.filename }} </a> </li>
+                        <li> <a href="{{ file.location | prepend: site.baseurl }}" target="_blank"><i class="fa fa-file" style="font-size: 14px; padding: 2px; margin: 0px;"></i><b>{{ file.filename }}</b> </a> </li>
                     {% endfor %}
                     {% endif %}
                     
