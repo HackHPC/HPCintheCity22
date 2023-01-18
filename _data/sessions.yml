@@ -245,9 +245,9 @@ sessions:
   description: >  
     <em>[Team Presentation]</em> Project Status and Tasking (1-slide/1-minute)
     <br> <h4 style="color: green">&#127942; Team "Team Genie" - 1-Day Project Progress Award</h4>
-  #youtube:
-  #- name: 
-  #  link:
+  youtube:
+  - name: "Team Trailers"
+    link: https://www.youtube.com/watch?v=KXJeITr-d7s&list=PLk7G3_iq2ijRDyRsUDQsTmEtqoRxLlYwo
   #files:
   #- filename: "1-Day Team Goal Slides"
   #  location: "/assets/slides/Team_Sitrep_Slides.pdf" 
