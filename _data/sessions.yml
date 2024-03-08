@@ -54,7 +54,7 @@ sessions:
     link: https://youtu.be/-W9JBCZ_tpw
   files: 
   - filename: CloudyCluster and Google Cloud Platform Overview Slide Deck
-    location: "/assets/slides/GitHub_and_Discord_Overview.pdf"
+    location: "/assets/slides/CloudyCluster_and_GoogleCloudPlatform Overview.pdf"
 
 - name: "[Pre-Event Training] GitHub and Discord Overview" 
   type: "Training"
